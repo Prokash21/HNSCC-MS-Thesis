@@ -1,0 +1,79 @@
+"Patient","Study","Sample_type","HPV","Sex","Total_cells","Tumor_cells","NonMalignant_epithelial_cells","Paired_20plus"
+"BHN70","Bill 2023 (GSE234933)","Primary","HPV-","Male",4739,2644,38,TRUE
+"BHN64","Bill 2023 (GSE234933)","Primary","HPV-","Male",4774,1620,64,TRUE
+"BHN60","Bill 2023 (GSE234933)","Primary","HPV-","Female",4932,1391,37,TRUE
+"BHN7","Bill 2023 (GSE234933)","Primary","HPV-","Male",1081,518,33,TRUE
+"BHN1","Bill 2023 (GSE234933)","Primary","HPV-","Male",2568,505,22,TRUE
+"BHN39","Bill 2023 (GSE234933)","Primary","HPV-","Male",1272,316,1,FALSE
+"BHN17","Bill 2023 (GSE234933)","Unknown primary of the head and neck","HPV-","Male",5756,236,18,FALSE
+"BHN46","Bill 2023 (GSE234933)","Primary","HPV-","Female",4181,177,8,FALSE
+"BHN67","Bill 2023 (GSE234933)","Primary","HPV-","Male",3643,120,0,FALSE
+"BHN75","Bill 2023 (GSE234933)","Primary","HPV-","Male",6981,105,2,FALSE
+"BHN72","Bill 2023 (GSE234933)","Primary","HPV-","Male",3962,98,2,FALSE
+"BHN31TS","Bill 2023 (GSE234933)","Primary","HPV-","Male",3868,39,7,FALSE
+"BHN49","Bill 2023 (GSE234933)","Primary","HPV-","Male",3254,26,0,FALSE
+"BHN30","Bill 2023 (GSE234933)","Primary","HPV-","Male",4420,20,6,FALSE
+"BHN40-3-05","Bill 2023 (GSE234933)","Primary","HPV-","Female",1735,9,7,FALSE
+"BHN74","Bill 2023 (GSE234933)","Primary","HPV-","Female",9194,0,1,FALSE
+"P8","Choi 2023 (GSE181919)","CA","HPV-","Male",1206,731,146,TRUE
+"P4","Choi 2023 (GSE181919)","CA","HPV-","Female",608,427,78,TRUE
+"P51","Choi 2023 (GSE181919)","CA","HPV-","Male",1801,274,3,FALSE
+"P21","Choi 2023 (GSE181919)","CA","HPV-","Male",697,272,17,FALSE
+"P9","Choi 2023 (GSE181919)","CA","HPV-","Female",850,178,2,FALSE
+"P30","Choi 2023 (GSE181919)","CA","HPV-","Male",282,94,10,FALSE
+"P26","Choi 2023 (GSE181919)","CA","HPV-","Male",944,83,4,FALSE
+"P38","Choi 2023 (GSE181919)","CA","HPV-","Male",1049,81,2,FALSE
+"P15","Choi 2023 (GSE181919)","CA","HPV-","Female",1731,59,0,FALSE
+"P6","Choi 2023 (GSE181919)","CA","HPV-","Male",1327,52,0,FALSE
+"P31","Choi 2023 (GSE181919)","CA","HPV-","Male",523,45,1,FALSE
+"P7","Choi 2023 (GSE181919)","CA","HPV-","Male",536,43,0,FALSE
+"P60","Choi 2023 (GSE181919)","CA","HPV-","Female",1948,27,0,FALSE
+"HN15","Kurten 2021 (GSE164690)","CD45n + CD45p","HPV-","Female",4472,478,0,FALSE
+"HN01","Kurten 2021 (GSE164690)","CD45n + CD45p","HPV-","Male",3473,445,1,FALSE
+"HN08","Kurten 2021 (GSE164690)","CD45n + CD45p","HPV-","Female",2289,173,0,FALSE
+"HN07","Kurten 2021 (GSE164690)","CD45n + CD45p","HPV-","Male",3139,135,1,FALSE
+"HN11","Kurten 2021 (GSE164690)","CD45n + CD45p","HPV-","Male",4762,67,1,FALSE
+"HN10","Kurten 2021 (GSE164690)","CD45n + CD45p","HPV-","Male",4465,65,0,FALSE
+"HN09","Kurten 2021 (GSE164690)","CD45n + CD45p","HPV-","Female",3701,48,0,FALSE
+"HN06","Kurten 2021 (GSE164690)","CD45n + CD45p","HPV-","Male",2667,18,0,FALSE
+"HN05","Kurten 2021 (GSE164690)","CD45n + CD45p","HPV-","Female",5111,7,0,FALSE
+"HN02","Kurten 2021 (GSE164690)","CD45p","HPV-","Female",748,0,0,FALSE
+"HN03","Kurten 2021 (GSE164690)","CD45p","HPV-","Male",5115,0,0,FALSE
+"HN04","Kurten 2021 (GSE164690)","CD45p","HPV-","Male",1383,0,0,FALSE
+"OP8","Puram 2023 (GSE182227)","Primary","HPV-","Male",6964,5548,94,TRUE
+"OP12","Puram 2023 (GSE182227)","Primary","HPV-","Male",6911,1187,123,TRUE
+"OP10","Puram 2023 (GSE182227)","Primary","HPV-","Male",7078,649,61,TRUE
+"OP19","Puram 2023 (GSE182227)","Primary","HPV-","Female",2274,359,491,TRUE
+"OP16","Puram 2023 (GSE182227)","Primary","HPV-","Male",3330,260,1273,TRUE
+"BHN63","Bill 2023 (GSE234933)","Primary","HPV+","Male",8330,5523,622,TRUE
+"BHN68","Bill 2023 (GSE234933)","Primary","HPV+","Male",8450,2072,5,FALSE
+"BHN76","Bill 2023 (GSE234933)","Primary","HPV+","Male",6685,1295,68,TRUE
+"BHN77","Bill 2023 (GSE234933)","Primary","HPV+","Male",7817,823,176,TRUE
+"BHN58","Bill 2023 (GSE234933)","Primary","HPV+","Male",2818,322,89,TRUE
+"BHN59","Bill 2023 (GSE234933)","Primary","HPV+","Male",5046,263,12,FALSE
+"BHN50","Bill 2023 (GSE234933)","Primary","HPV+","Male",346,129,19,FALSE
+"BHN52","Bill 2023 (GSE234933)","Primary","HPV+","Male",1921,24,13,FALSE
+"P43","Choi 2023 (GSE181919)","CA","HPV+","Male",1662,1367,197,TRUE
+"P57","Choi 2023 (GSE181919)","CA","HPV+","Male",1104,619,12,FALSE
+"P46","Choi 2023 (GSE181919)","CA","HPV+","Male",1413,297,4,FALSE
+"P22","Choi 2023 (GSE181919)","CA","HPV+","Male",1143,107,5,FALSE
+"P59","Choi 2023 (GSE181919)","CA","HPV+","Male",2350,41,0,FALSE
+"P86","Choi 2023 (GSE181919)","CA","HPV+","Female",1084,26,0,FALSE
+"P84","Choi 2023 (GSE181919)","CA","HPV+","Male",830,6,0,FALSE
+"HN13","Kurten 2021 (GSE164690)","CD45n + CD45p","HPV+","Male",5284,1193,27,TRUE
+"HN12","Kurten 2021 (GSE164690)","CD45n + CD45p","HPV+","Male",4543,729,2,FALSE
+"HN17","Kurten 2021 (GSE164690)","CD45n + CD45p","HPV+","Male",10667,542,2,FALSE
+"HN16","Kurten 2021 (GSE164690)","CD45n + CD45p","HPV+","Male",5086,416,1,FALSE
+"HN14","Kurten 2021 (GSE164690)","CD45n + CD45p","HPV+","Male",3720,273,26,TRUE
+"HN18","Kurten 2021 (GSE164690)","CD45n + CD45p","HPV+","Male",2455,78,15,FALSE
+"OP33","Puram 2023 (GSE182227)","Primary","HPV+","Male",7212,3163,207,TRUE
+"OP20","Puram 2023 (GSE182227)","Primary","HPV+","Male",6187,2439,170,TRUE
+"OP9","Puram 2023 (GSE182227)","Primary","HPV+","Male",6531,1925,38,TRUE
+"OP4","Puram 2023 (GSE182227)","Primary","HPV+","Male",5006,1899,85,TRUE
+"OP34","Puram 2023 (GSE182227)","Primary","HPV+","Male",7232,1579,90,TRUE
+"OP6","Puram 2023 (GSE182227)","Primary","HPV+","Female",3269,410,62,TRUE
+"OP5","Puram 2023 (GSE182227)","Primary","HPV+","Male",2664,301,44,TRUE
+"OP14","Puram 2023 (GSE182227)","Primary","HPV+","Male",3238,157,80,TRUE
+"OP17","Puram 2023 (GSE182227)","Primary","HPV+","Male",1163,152,23,TRUE
+"OP35","Puram 2023 (GSE182227)","Primary","HPV+","Male",1167,150,155,TRUE
+"OP13","Puram 2023 (GSE182227)","Primary","HPV+","Male",744,145,12,FALSE
