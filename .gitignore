@@ -22,3 +22,8 @@ HNSCC-HPV/results/02_normal_cleaning/tables/cnv_scores_per_cell.csv
 PLAN/HNSCC_Research_Plan.docx
 HNSCC-HPV/docs/HNSCC_Research_Pipeline_E.docx
 HNSCC-HPV/docs/HNSCC_Research_Pipeline_E.pdf
+
+# local context and tool settings (never tracked)
+CLAUDE.md
+CLAUDE.local.md
+.claude/
