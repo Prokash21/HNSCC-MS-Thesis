@@ -1,0 +1,5 @@
+"role","gene","note","novelty","tumour_HPVpos_CPM","tissue_tumour_share","specificity_log2","B_log2FC","wholetissue_log2FC","wholetissue_FDR"
+"Positive control (established HPV+ gene)","SYCP2","preferred in strategy note","Established",26.5283821116765,0.738341968911917,2.76469450570763,4.31630109226975,2.9776295029591,8.3629070425414e-08
+"Novelty: under-studied, seen in HPV+ lists","ZFR2","preferred in strategy note","Partial",25.707195437445,0.8,3.51519126572536,6.39338805956433,4.85900081991954,2.3705398269291e-10
+"Novelty: lncRNA","MIR9-3HG","preferred in strategy note","Partial",14.5753185494958,0.75,1.83273036333843,3.4288340450256,2.08953447384093,1.94973494787023e-06
+"Novelty: little studied (highest risk)","KLHL35","RIBC2 failed (expression 8.3 CPM < 10); best passing alternative","Partial",14.5228517071612,0.632037276873698,1.88546175058052,3.17790016074962,2.46425817521986,1.95662250947924e-06
