@@ -1,0 +1,119 @@
+"Patient","sample","Compartment","n_cells","Study","HPV","Sex","in_planA"
+"BHN1","BHN1|Tumor","Tumor",505,"Bill 2023 (GSE234933)","HPV-","Male",FALSE
+"BHN17","BHN17|Tumor","Tumor",236,"Bill 2023 (GSE234933)","HPV-","Male",FALSE
+"BHN30","BHN30|Normal squamous","Normal squamous",6,"Bill 2023 (GSE234933)","HPV-","Male",FALSE
+"BHN30","BHN30|Tumor","Tumor",20,"Bill 2023 (GSE234933)","HPV-","Male",FALSE
+"BHN31TS","BHN31TS|Normal squamous","Normal squamous",7,"Bill 2023 (GSE234933)","HPV-","Male",FALSE
+"BHN31TS","BHN31TS|Tumor","Tumor",39,"Bill 2023 (GSE234933)","HPV-","Male",FALSE
+"BHN39","BHN39|Normal squamous","Normal squamous",1,"Bill 2023 (GSE234933)","HPV-","Male",FALSE
+"BHN39","BHN39|Tumor","Tumor",316,"Bill 2023 (GSE234933)","HPV-","Male",FALSE
+"BHN40-3-05","BHN40-3-05|Normal squamous","Normal squamous",5,"Bill 2023 (GSE234933)","HPV-","Female",FALSE
+"BHN40-3-05","BHN40-3-05|Tumor","Tumor",9,"Bill 2023 (GSE234933)","HPV-","Female",FALSE
+"BHN46","BHN46|Normal squamous","Normal squamous",8,"Bill 2023 (GSE234933)","HPV-","Female",FALSE
+"BHN46","BHN46|Tumor","Tumor",177,"Bill 2023 (GSE234933)","HPV-","Female",FALSE
+"BHN49","BHN49|Tumor","Tumor",26,"Bill 2023 (GSE234933)","HPV-","Male",FALSE
+"BHN50","BHN50|Normal squamous","Normal squamous",5,"Bill 2023 (GSE234933)","HPV+","Male",FALSE
+"BHN50","BHN50|Tumor","Tumor",129,"Bill 2023 (GSE234933)","HPV+","Male",FALSE
+"BHN52","BHN52|Normal squamous","Normal squamous",12,"Bill 2023 (GSE234933)","HPV+","Male",TRUE
+"BHN52","BHN52|Tumor","Tumor",24,"Bill 2023 (GSE234933)","HPV+","Male",TRUE
+"BHN58","BHN58|Normal squamous","Normal squamous",79,"Bill 2023 (GSE234933)","HPV+","Male",TRUE
+"BHN58","BHN58|Tumor","Tumor",322,"Bill 2023 (GSE234933)","HPV+","Male",TRUE
+"BHN59","BHN59|Normal squamous","Normal squamous",3,"Bill 2023 (GSE234933)","HPV+","Male",FALSE
+"BHN59","BHN59|Tumor","Tumor",263,"Bill 2023 (GSE234933)","HPV+","Male",FALSE
+"BHN60","BHN60|Normal squamous","Normal squamous",34,"Bill 2023 (GSE234933)","HPV-","Female",TRUE
+"BHN60","BHN60|Tumor","Tumor",1391,"Bill 2023 (GSE234933)","HPV-","Female",TRUE
+"BHN63","BHN63|Normal squamous","Normal squamous",90,"Bill 2023 (GSE234933)","HPV+","Male",TRUE
+"BHN63","BHN63|Tumor","Tumor",5523,"Bill 2023 (GSE234933)","HPV+","Male",TRUE
+"BHN64","BHN64|Normal squamous","Normal squamous",5,"Bill 2023 (GSE234933)","HPV-","Male",FALSE
+"BHN64","BHN64|Tumor","Tumor",1620,"Bill 2023 (GSE234933)","HPV-","Male",FALSE
+"BHN67","BHN67|Tumor","Tumor",120,"Bill 2023 (GSE234933)","HPV-","Male",FALSE
+"BHN68","BHN68|Normal squamous","Normal squamous",1,"Bill 2023 (GSE234933)","HPV+","Male",FALSE
+"BHN68","BHN68|Tumor","Tumor",2072,"Bill 2023 (GSE234933)","HPV+","Male",FALSE
+"BHN7","BHN7|Normal squamous","Normal squamous",4,"Bill 2023 (GSE234933)","HPV-","Male",FALSE
+"BHN7","BHN7|Tumor","Tumor",518,"Bill 2023 (GSE234933)","HPV-","Male",FALSE
+"BHN70","BHN70|Normal squamous","Normal squamous",32,"Bill 2023 (GSE234933)","HPV-","Male",TRUE
+"BHN70","BHN70|Tumor","Tumor",2644,"Bill 2023 (GSE234933)","HPV-","Male",TRUE
+"BHN72","BHN72|Tumor","Tumor",98,"Bill 2023 (GSE234933)","HPV-","Male",FALSE
+"BHN74","BHN74|Normal squamous","Normal squamous",1,"Bill 2023 (GSE234933)","HPV-","Female",FALSE
+"BHN75","BHN75|Tumor","Tumor",105,"Bill 2023 (GSE234933)","HPV-","Male",FALSE
+"BHN76","BHN76|Normal squamous","Normal squamous",66,"Bill 2023 (GSE234933)","HPV+","Male",TRUE
+"BHN76","BHN76|Tumor","Tumor",1295,"Bill 2023 (GSE234933)","HPV+","Male",TRUE
+"BHN77","BHN77|Normal squamous","Normal squamous",99,"Bill 2023 (GSE234933)","HPV+","Male",TRUE
+"BHN77","BHN77|Tumor","Tumor",823,"Bill 2023 (GSE234933)","HPV+","Male",TRUE
+"HN01","HN01|Tumor","Tumor",445,"Kurten 2021 (GSE164690)","HPV-","Male",FALSE
+"HN05","HN05|Tumor","Tumor",7,"Kurten 2021 (GSE164690)","HPV-","Female",FALSE
+"HN06","HN06|Tumor","Tumor",18,"Kurten 2021 (GSE164690)","HPV-","Male",FALSE
+"HN07","HN07|Normal squamous","Normal squamous",1,"Kurten 2021 (GSE164690)","HPV-","Male",FALSE
+"HN07","HN07|Tumor","Tumor",135,"Kurten 2021 (GSE164690)","HPV-","Male",FALSE
+"HN08","HN08|Tumor","Tumor",173,"Kurten 2021 (GSE164690)","HPV-","Female",FALSE
+"HN09","HN09|Tumor","Tumor",48,"Kurten 2021 (GSE164690)","HPV-","Female",FALSE
+"HN10","HN10|Tumor","Tumor",65,"Kurten 2021 (GSE164690)","HPV-","Male",FALSE
+"HN11","HN11|Normal squamous","Normal squamous",1,"Kurten 2021 (GSE164690)","HPV-","Male",FALSE
+"HN11","HN11|Tumor","Tumor",67,"Kurten 2021 (GSE164690)","HPV-","Male",FALSE
+"HN12","HN12|Normal squamous","Normal squamous",2,"Kurten 2021 (GSE164690)","HPV+","Male",FALSE
+"HN12","HN12|Tumor","Tumor",729,"Kurten 2021 (GSE164690)","HPV+","Male",FALSE
+"HN13","HN13|Normal squamous","Normal squamous",20,"Kurten 2021 (GSE164690)","HPV+","Male",TRUE
+"HN13","HN13|Tumor","Tumor",1193,"Kurten 2021 (GSE164690)","HPV+","Male",TRUE
+"HN14","HN14|Normal squamous","Normal squamous",23,"Kurten 2021 (GSE164690)","HPV+","Male",TRUE
+"HN14","HN14|Tumor","Tumor",273,"Kurten 2021 (GSE164690)","HPV+","Male",TRUE
+"HN15","HN15|Tumor","Tumor",478,"Kurten 2021 (GSE164690)","HPV-","Female",FALSE
+"HN16","HN16|Tumor","Tumor",416,"Kurten 2021 (GSE164690)","HPV+","Male",FALSE
+"HN17","HN17|Normal squamous","Normal squamous",2,"Kurten 2021 (GSE164690)","HPV+","Male",FALSE
+"HN17","HN17|Tumor","Tumor",542,"Kurten 2021 (GSE164690)","HPV+","Male",FALSE
+"HN18","HN18|Normal squamous","Normal squamous",14,"Kurten 2021 (GSE164690)","HPV+","Male",TRUE
+"HN18","HN18|Tumor","Tumor",78,"Kurten 2021 (GSE164690)","HPV+","Male",TRUE
+"OP10","OP10|Normal squamous","Normal squamous",34,"Puram 2023 (GSE182227)","HPV-","Male",TRUE
+"OP10","OP10|Tumor","Tumor",649,"Puram 2023 (GSE182227)","HPV-","Male",TRUE
+"OP12","OP12|Normal squamous","Normal squamous",104,"Puram 2023 (GSE182227)","HPV-","Male",TRUE
+"OP12","OP12|Tumor","Tumor",1187,"Puram 2023 (GSE182227)","HPV-","Male",TRUE
+"OP13","OP13|Normal squamous","Normal squamous",6,"Puram 2023 (GSE182227)","HPV+","Male",FALSE
+"OP13","OP13|Tumor","Tumor",145,"Puram 2023 (GSE182227)","HPV+","Male",FALSE
+"OP14","OP14|Normal squamous","Normal squamous",64,"Puram 2023 (GSE182227)","HPV+","Male",TRUE
+"OP14","OP14|Tumor","Tumor",157,"Puram 2023 (GSE182227)","HPV+","Male",TRUE
+"OP16","OP16|Tumor","Tumor",260,"Puram 2023 (GSE182227)","HPV-","Male",FALSE
+"OP17","OP17|Normal squamous","Normal squamous",11,"Puram 2023 (GSE182227)","HPV+","Male",TRUE
+"OP17","OP17|Tumor","Tumor",152,"Puram 2023 (GSE182227)","HPV+","Male",TRUE
+"OP19","OP19|Normal squamous","Normal squamous",123,"Puram 2023 (GSE182227)","HPV-","Female",TRUE
+"OP19","OP19|Tumor","Tumor",359,"Puram 2023 (GSE182227)","HPV-","Female",TRUE
+"OP20","OP20|Normal squamous","Normal squamous",43,"Puram 2023 (GSE182227)","HPV+","Male",TRUE
+"OP20","OP20|Tumor","Tumor",2439,"Puram 2023 (GSE182227)","HPV+","Male",TRUE
+"OP33","OP33|Normal squamous","Normal squamous",91,"Puram 2023 (GSE182227)","HPV+","Male",TRUE
+"OP33","OP33|Tumor","Tumor",3163,"Puram 2023 (GSE182227)","HPV+","Male",TRUE
+"OP34","OP34|Normal squamous","Normal squamous",22,"Puram 2023 (GSE182227)","HPV+","Male",TRUE
+"OP34","OP34|Tumor","Tumor",1579,"Puram 2023 (GSE182227)","HPV+","Male",TRUE
+"OP35","OP35|Normal squamous","Normal squamous",18,"Puram 2023 (GSE182227)","HPV+","Male",TRUE
+"OP35","OP35|Tumor","Tumor",150,"Puram 2023 (GSE182227)","HPV+","Male",TRUE
+"OP4","OP4|Normal squamous","Normal squamous",26,"Puram 2023 (GSE182227)","HPV+","Male",TRUE
+"OP4","OP4|Tumor","Tumor",1899,"Puram 2023 (GSE182227)","HPV+","Male",TRUE
+"OP5","OP5|Normal squamous","Normal squamous",1,"Puram 2023 (GSE182227)","HPV+","Male",FALSE
+"OP5","OP5|Tumor","Tumor",301,"Puram 2023 (GSE182227)","HPV+","Male",FALSE
+"OP6","OP6|Normal squamous","Normal squamous",45,"Puram 2023 (GSE182227)","HPV+","Female",TRUE
+"OP6","OP6|Tumor","Tumor",410,"Puram 2023 (GSE182227)","HPV+","Female",TRUE
+"OP8","OP8|Normal squamous","Normal squamous",9,"Puram 2023 (GSE182227)","HPV-","Male",FALSE
+"OP8","OP8|Tumor","Tumor",5548,"Puram 2023 (GSE182227)","HPV-","Male",FALSE
+"OP9","OP9|Normal squamous","Normal squamous",14,"Puram 2023 (GSE182227)","HPV+","Male",TRUE
+"OP9","OP9|Tumor","Tumor",1925,"Puram 2023 (GSE182227)","HPV+","Male",TRUE
+"P15","P15|Tumor","Tumor",59,"Choi 2023 (GSE181919)","HPV-","Female",FALSE
+"P21","P21|Tumor","Tumor",272,"Choi 2023 (GSE181919)","HPV-","Male",FALSE
+"P22","P22|Tumor","Tumor",107,"Choi 2023 (GSE181919)","HPV+","Male",FALSE
+"P26","P26|Tumor","Tumor",83,"Choi 2023 (GSE181919)","HPV-","Male",FALSE
+"P30","P30|Normal squamous","Normal squamous",1,"Choi 2023 (GSE181919)","HPV-","Male",FALSE
+"P30","P30|Tumor","Tumor",94,"Choi 2023 (GSE181919)","HPV-","Male",FALSE
+"P31","P31|Normal squamous","Normal squamous",1,"Choi 2023 (GSE181919)","HPV-","Male",FALSE
+"P31","P31|Tumor","Tumor",45,"Choi 2023 (GSE181919)","HPV-","Male",FALSE
+"P38","P38|Tumor","Tumor",81,"Choi 2023 (GSE181919)","HPV-","Male",FALSE
+"P4","P4|Tumor","Tumor",427,"Choi 2023 (GSE181919)","HPV-","Female",FALSE
+"P43","P43|Normal squamous","Normal squamous",1,"Choi 2023 (GSE181919)","HPV+","Male",FALSE
+"P43","P43|Tumor","Tumor",1367,"Choi 2023 (GSE181919)","HPV+","Male",FALSE
+"P46","P46|Normal squamous","Normal squamous",1,"Choi 2023 (GSE181919)","HPV+","Male",FALSE
+"P46","P46|Tumor","Tumor",297,"Choi 2023 (GSE181919)","HPV+","Male",FALSE
+"P51","P51|Tumor","Tumor",274,"Choi 2023 (GSE181919)","HPV-","Male",FALSE
+"P57","P57|Tumor","Tumor",619,"Choi 2023 (GSE181919)","HPV+","Male",FALSE
+"P59","P59|Tumor","Tumor",41,"Choi 2023 (GSE181919)","HPV+","Male",FALSE
+"P6","P6|Tumor","Tumor",52,"Choi 2023 (GSE181919)","HPV-","Male",FALSE
+"P60","P60|Tumor","Tumor",27,"Choi 2023 (GSE181919)","HPV-","Female",FALSE
+"P7","P7|Tumor","Tumor",43,"Choi 2023 (GSE181919)","HPV-","Male",FALSE
+"P8","P8|Tumor","Tumor",731,"Choi 2023 (GSE181919)","HPV-","Male",FALSE
+"P84","P84|Tumor","Tumor",6,"Choi 2023 (GSE181919)","HPV+","Male",FALSE
+"P86","P86|Tumor","Tumor",26,"Choi 2023 (GSE181919)","HPV+","Female",FALSE
+"P9","P9|Tumor","Tumor",178,"Choi 2023 (GSE181919)","HPV-","Female",FALSE
