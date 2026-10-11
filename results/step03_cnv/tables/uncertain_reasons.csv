@@ -1,0 +1,13 @@
+dataset,state_reason,N
+GSE172577_Peng,CNV signal and correlation disagree,9114
+GSE172577_Peng,"no lineage label, CNV non-malignant",7227
+GSE181919_Choi,CNV signal and correlation disagree,11
+GSE234933_Bill,"no lineage label, CNV non-malignant",2078
+GSE234933_Bill,CNV signal and correlation disagree,1943
+GSE234933_Bill,"CNV non-malignant, not clean squamous (gland/ciliated/other or non-HN epithelium)",492
+GSE234933_Bill,"tumour label, CNV non-malignant in an informative sample",452
+HNSCatlas,CNV signal and correlation disagree,6877
+HNSCatlas,"CNV non-malignant, not clean squamous (gland/ciliated/other or non-HN epithelium)",1757
+HNSCatlas,"suspect label, not CNV-malignant",1232
+HNSCatlas,"tumour label, CNV non-malignant in an informative sample",744
+HNSCatlas,CNV-malignant cell in a normal sample,26

@@ -1,0 +1,13 @@
+a,b,type,r
+Bill_HN13,BHN46,test: HN13 vs BHN46,0.35
+Bill_HN45,Bill_HN23,"positive control: HN23 vs HN45 (same patient, Table S1)",0.894
+Bill_HN13,BHN70,background: HN13 vs unrelated HPV- primary,0.26
+Bill_HN13,BHN64,background: HN13 vs unrelated HPV- primary,0.389
+Bill_HN13,OP12,background: HN13 vs unrelated HPV- primary,0.431
+Bill_HN13,HN01,background: HN13 vs unrelated HPV- primary,0.381
+Bill_HN13,BHN60,background: HN13 vs unrelated HPV- primary,0.451
+BHN46,BHN70,background: BHN46 vs unrelated HPV- primary,0.202
+BHN46,BHN64,background: BHN46 vs unrelated HPV- primary,0.33
+BHN46,OP12,background: BHN46 vs unrelated HPV- primary,0.259
+BHN46,HN01,background: BHN46 vs unrelated HPV- primary,0.265
+BHN46,BHN60,background: BHN46 vs unrelated HPV- primary,0.269

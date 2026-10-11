@@ -1,0 +1,6 @@
+role,hpv,with_label_only,cnv_only
+discovery,HPV+,26,25
+discovery,HPV-,28,23
+recurrence,HPV+,5,4
+recurrence,HPV-,12,10
+sc_validation,UNCLEAR,6,6

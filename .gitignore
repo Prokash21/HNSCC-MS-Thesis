@@ -31,3 +31,6 @@ archive_v1_HPVpos/results/02_normal_cleaning/tables/cnv_scores_per_cell.csv
 CLAUDE.md
 CLAUDE.local.md
 .claude/
+
+# large step 03 figure (PNG version is tracked)
+results/step03_cnv/Fig11_cnv_heatmaps.pdf

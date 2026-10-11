@@ -1,0 +1,5 @@
+compartment,cnv_call,N
+tumour_label,malignant,26
+tumour_label,uncertain,3
+nonmalignant_label,non_malignant,18
+nonmalignant_label,uncertain,2

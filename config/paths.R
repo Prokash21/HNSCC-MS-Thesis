@@ -53,5 +53,14 @@ paths <- list(
   peng_epi_v2        = "data/processed/v2/peng_epithelial.rds",
   epithelial_v2      = "data/processed/v2/epithelial_v2.rds",
   epithelial_v2_meta = "data/processed/v2/epithelial_v2_meta.csv.gz",
-  step02             = "results/step02_assembly"
+  step02             = "results/step02_assembly",
+
+  ## ---- step 03: CNV calls and final labels -------------------------------
+  cnv_cache          = "data/processed/v2/cnv",
+  atlas_labelled     = "data/processed/v2/atlas_epithelial_labelled.rds",
+  choi_labelled      = "data/processed/v2/choi_nl_lp_epithelial_labelled.rds",
+  bill_labelled      = "data/processed/v2/bill_recurrence_epithelial_labelled.rds",
+  peng_labelled      = "data/processed/v2/peng_epithelial_labelled.rds",
+  cell_labels_v2     = "data/processed/v2/cell_labels_v2.csv.gz",
+  step03             = "results/step03_cnv"
 )
