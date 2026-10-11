@@ -1,0 +1,6 @@
+dataset,hpv_neg_patients,hpv_pos_patients,tumour_cells,sites,normal_samples,raw_counts,in_atlas
+HNSCatlas (4 studies),46,32,48094,"OC, OP, larynx/hypopharynx, HP, NP, unknown",No (within-tumour epithelium; Puram OP33-35 normals merged in),Yes,Yes
+GSE181919 Choi NL/LP (not in atlas),9,3,0,"OC, OP, HP","Yes (9 NL, 4 LP)",Yes (UMI text matrix),No (patients yes for 9 NL + LP15)
+GSE172577 Peng,,,,Oral cavity,No,Yes (10x mtx),No
+GSE225331 Quah,,,1238,"Oral cavity (tongue, RMT)",No,Yes (RData counts),No
+Kroehling/Monti HPV- atlas (Zenodo 17880437),,0,,UNCLEAR,UNCLEAR,UNCLEAR,No

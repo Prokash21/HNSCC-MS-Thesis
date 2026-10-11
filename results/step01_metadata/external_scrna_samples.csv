@@ -1,0 +1,21 @@
+dataset,sample,patient_id,site,hpv,sample_type,n_cells_or_wells,format,bytes,notes
+GSE172577 (Peng 2021),GSM5258385,SYSMH1,"Oral cavity (OSCC, subsite NA)",,Tumour,,10x mtx (raw UMI counts),125807403,OSCC TUMOR; untreated
+GSE172577 (Peng 2021),GSM5258386,SYSMH2,"Oral cavity (OSCC, subsite NA)",,Tumour,,10x mtx (raw UMI counts),85348466,OSCC TUMOR; untreated
+GSE172577 (Peng 2021),GSM5258387,SYSMH3,"Oral cavity (OSCC, subsite NA)",,Tumour,,10x mtx (raw UMI counts),79557335,OSCC TUMOR; untreated
+GSE172577 (Peng 2021),GSM5258388,SYSMH4,"Oral cavity (OSCC, subsite NA)",,Tumour,,10x mtx (raw UMI counts),101728851,OSCC TUMOR; untreated
+GSE172577 (Peng 2021),GSM5258389,SYSMH5,"Oral cavity (OSCC, subsite NA)",,Tumour,,10x mtx (raw UMI counts),92374144,OSCC TUMOR; untreated
+GSE172577 (Peng 2021),GSM5258390,SYSMH6,"Oral cavity (OSCC, subsite NA)",,Tumour,,10x mtx (raw UMI counts),102892575,OSCC TUMOR; untreated
+GSE225331 (Quah 2023),NCC-HN120P,HN120,Oral cavity (L Tongue),,patient-derived cell culture - Primary,96,RData (good_counts: counts; good_tpm: TPM),,Stage T4 | grade 2
+GSE225331 (Quah 2023),NCC-HN120M,HN120,Oral cavity (L Tongue),,patient-derived cell culture - Metastatic (nodal),76,RData (good_counts: counts; good_tpm: TPM),,Stage T4 | grade 2
+GSE225331 (Quah 2023),NCC-HN137P,HN137,Oral cavity (L lateral tongue),,patient-derived cell culture - Primary,91,RData (good_counts: counts; good_tpm: TPM),,Stage T4aN2bM0 | grade 3
+GSE225331 (Quah 2023),NCC-HN137M,HN137,Oral cavity (L lateral tongue),,patient-derived cell culture - Metastatic (nodal),86,RData (good_counts: counts; good_tpm: TPM),,Stage T4aN2bM0 | grade 3
+GSE225331 (Quah 2023),NCC-HN148P,HN148,Oral cavity (R retromolar trigone),,patient-derived cell culture - Primary,91,RData (good_counts: counts; good_tpm: TPM),,Stage pT2N1M0 | grade 3
+GSE225331 (Quah 2023),NCC-HN148M,HN148,Oral cavity (R retromolar trigone),,patient-derived cell culture - Metastatic (nodal),86,RData (good_counts: counts; good_tpm: TPM),,Stage pT2N1M0 | grade 3
+GSE225331 (Quah 2023),NCC-HN159P,HN159,Oral cavity (R Tongue),,patient-derived cell culture - Primary,96,RData (good_counts: counts; good_tpm: TPM),,Stage pT3pN2b | grade 2
+GSE225331 (Quah 2023),NCC-HN159M,HN159,Oral cavity (R Tongue),,patient-derived cell culture - Metastatic (nodal),118,RData (good_counts: counts; good_tpm: TPM),,Stage pT3pN2b | grade 2
+GSE225331 (Quah 2023),NCC-HN160P,HN160,"Oral cavity (R Dorsal tongue,  posterior-lateral)",,patient-derived cell culture - Primary,94,RData (good_counts: counts; good_tpm: TPM),,Stage pT4apN2c | grade 2-3
+GSE225331 (Quah 2023),NCC-HN160M,HN160,"Oral cavity (R Dorsal tongue,  posterior-lateral)",,patient-derived cell culture - Metastatic (nodal),95,RData (good_counts: counts; good_tpm: TPM),,Stage pT4apN2c | grade 2-3
+GSE225331 (Quah 2023),NCC-HN217P,HN217,Oral cavity (R Tongue),,patient-derived cell culture - Primary,66,RData (good_counts: counts; good_tpm: TPM),,Stage pT3N2b | grade 2
+GSE225331 (Quah 2023),NCC-HN217M,HN217,Oral cavity (R Tongue),,patient-derived cell culture - Metastatic (nodal),96,RData (good_counts: counts; good_tpm: TPM),,Stage pT3N2b | grade 2
+GSE225331 (Quah 2023),NCC-HN220P,HN220,Oral cavity (L Lateral Tongue),,patient-derived cell culture - Primary,83,RData (good_counts: counts; good_tpm: TPM),,Stage pT2N2b | grade 2
+GSE225331 (Quah 2023),NCC-HN220M,HN220,Oral cavity (L Lateral Tongue),,patient-derived cell culture - Metastatic (nodal),64,RData (good_counts: counts; good_tpm: TPM),,Stage pT2N2b | grade 2
