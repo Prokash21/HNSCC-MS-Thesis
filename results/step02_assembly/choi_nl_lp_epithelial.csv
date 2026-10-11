@@ -1,0 +1,14 @@
+sample,total_cells,patient,tissue,site,hpv,epithelial_cells,patient_in_atlas
+LP15,2228,P15,LP,Oral cavity,HPV-,72,TRUE
+LP16,2238,P16,LP,Oral cavity,HPV-,30,FALSE
+LP17,1238,P17,LP,Oral cavity,HPV-,51,FALSE
+LP33,823,P33,LP,Oral cavity,HPV-,30,FALSE
+N06,2102,P6,NL,Oral cavity,HPV-,86,TRUE
+N08,712,P8,NL,Oropharynx,HPV-,10,TRUE
+N09,1712,P9,NL,Oropharynx,HPV-,37,TRUE
+N15,2695,P15,NL,Oral cavity,HPV-,80,TRUE
+N21,2435,P21,NL,Oral cavity,HPV-,33,TRUE
+N22,2399,P22,NL,Oropharynx,HPV+,158,TRUE
+N38,951,P38,NL,Hypopharynx,HPV-,264,TRUE
+N43,2228,P43,NL,Oropharynx,HPV+,130,TRUE
+N46,1186,P46,NL,Oropharynx,HPV+,12,TRUE

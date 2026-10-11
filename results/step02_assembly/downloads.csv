@@ -1,0 +1,6 @@
+file,local_bytes,geo_bytes,size_ok,raw_integer_counts
+GSE181919_UMI_counts.txt.gz,127878601,127878601,TRUE,TRUE
+GSE234933_MGH_HNSCC_gex_raw_counts.tar.gz,1090860145,1090860145,TRUE,TRUE
+GSE172577_RAW.tar,587724800,587724800,TRUE,TRUE
+GSE234933_MGH_HNSCC_cell_annotation.txt.gz,1431703,1431703,TRUE,
+GSE234933_MGH_HNSCC_sample_annotation.txt.gz,680,680,TRUE,

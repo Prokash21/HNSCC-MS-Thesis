@@ -1,0 +1,33 @@
+compartment,original_label,N
+nonmalignant_label,,1111
+nonmalignant_label,T.cells,424
+nonmalignant_label,B_Plasma.cells,33
+nonmalignant_label,Endothelial Cells,19
+nonmalignant_label,Myocytes,11
+nonmalignant_label,Fibroblast,10
+nonmalignant_label,Myofibroblast,7
+nonmalignant_label,Fibroblasts,7
+nonmalignant_label,Endothelial.cells,5
+nonmalignant_label,Macrophagues,4
+nonmalignant_label,T-cell,4
+nonmalignant_label,Erythroid Cells,2
+nonmalignant_label,NK-cell,2
+nonmalignant_label,Lymphovascular,2
+nonmalignant_label,Mast.cells,2
+nonmalignant_label,B_cells,2
+nonmalignant_label,CD4+ T Cells,1
+nonmalignant_label,NK Cells,1
+nonmalignant_label,Macrophage,1
+nonmalignant_label,B-cell,1
+nonmalignant_label,Plasma cell,1
+nonmalignant_label,Dendritic.cells,1
+nonmalignant_label,Macrophages,1
+tumour_label,Endothelial Cells,649
+tumour_label,Erythroid Cells,611
+tumour_label,Fibroblast,378
+tumour_label,Macrophagues,176
+tumour_label,B-Cells,119
+tumour_label,CD4+ T Cells,28
+tumour_label,Monocytes,9
+tumour_label,T Cells,8
+tumour_label,CD8+ T Cells,1

@@ -1,0 +1,13 @@
+Patient,sample,sample_type,compartment,N
+OP33,Puram_OP33,primary_tumour,nonmalignant_label,190
+OP33,Puram_OP33,primary_tumour,tumour_label,3163
+OP33,Puram_OP33norm,adjacent_normal,nonmalignant_label,17
+OP34,Puram_OP34,primary_tumour,nonmalignant_label,70
+OP34,Puram_OP34,primary_tumour,tumour_label,1550
+OP34,Puram_OP34norm,adjacent_normal,nonmalignant_label,20
+OP34,Puram_OP34norm,adjacent_normal,tumour_label,29
+OP35,Puram_OP35BOT,primary_tumour,nonmalignant_label,103
+OP35,Puram_OP35BOT,primary_tumour,tumour_label,97
+OP35,Puram_OP35LN,lymph_node,nonmalignant_label,49
+OP35,Puram_OP35LN,lymph_node,tumour_label,53
+OP35,Puram_OP35norm,adjacent_normal,nonmalignant_label,3
