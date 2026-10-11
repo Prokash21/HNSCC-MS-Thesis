@@ -1,0 +1,6 @@
+"group","cells","patients","pct_tumour_like"
+"Reference",13721,48,0.1
+"Normal squamous",1098,38,15.8
+"Glandular",1680,13,0.2
+"Likely malignant",1500,32,63.9
+"Tumour",10261,48,81.4
