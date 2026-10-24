@@ -62,5 +62,10 @@ paths <- list(
   bill_labelled      = "data/processed/v2/bill_recurrence_epithelial_labelled.rds",
   peng_labelled      = "data/processed/v2/peng_epithelial_labelled.rds",
   cell_labels_v2     = "data/processed/v2/cell_labels_v2.csv.gz",
-  step03             = "results/step03_cnv"
+  step03             = "results/step03_cnv",
+
+  ## ---- step 04: relabelling, pseudobulk, differential expression ---------
+  ref_quantiles      = "data/processed/v2/cnv/ref_signal_quantiles.csv",
+  pseudobulk_v2      = "data/processed/v2/pseudobulk_step04.rds",
+  step04             = "results/step04_DE"
 )

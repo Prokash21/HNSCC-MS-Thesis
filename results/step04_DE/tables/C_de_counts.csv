@@ -1,0 +1,4 @@
+contrast,patients,malignant_pb,normal_pb,genes_tested,up,down,gene_set
+C1 HPV- paired (~ patient + state),9,9,9,8700,74,64,shared atlas/Choi (20000 genes)
+C2 HPV- all (~ study + state),27,27,9,11192,668,377,shared atlas/Choi (20000 genes)
+C1 HPV+ paired (~ patient + state),7,7,7,9991,79,65,shared atlas/Choi (20000 genes)
