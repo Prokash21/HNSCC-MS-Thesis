@@ -1,5 +1,5 @@
-## Helpers for step 04: reference-cell CNV signal quantiles, pseudobulk and
-## edgeR quasi-likelihood DE.
+## Helpers for steps 04/04b: reference-cell CNV signal quantiles, scoring of
+## new cells, pseudobulk and edgeR quasi-likelihood DE.
 ##
 ## ref_signal_quantiles(): the step 03 cache keeps CNV scores of epithelial
 ##   cells and the 99th-percentile threshold per unit, but not the reference
@@ -11,7 +11,7 @@
 ##   reference cells (Choi NL/LP, Bill, Peng), the random draws are replayed in
 ##   the order scripts/03_cnv.R made them. Each rebuilt unit is accepted only
 ##   if its 99th percentile equals the cached threshold.
-## Date: 2026-10-24
+## Date: 2026-10-25
 
 suppressPackageStartupMessages({
   library(Matrix)
@@ -27,20 +27,17 @@ replay_heat <- function(group_sizes) {
   invisible(NULL)
 }
 
-ref_signal_quantiles <- function(paths, units, probs = c(0.95, 0.99), max_ref = 300,
-                                 nasopharynx = c("BHN77", "BHN34", "BHN61", "BHN73")) {
+## replay of the step 03 reference-cell selection, in the order and with the
+## random draws of scripts/03_cnv.R; on_unit(u, cnt, lib) is called with the
+## reference counts (CNV genes or more) and library sizes of every unit.
+## upto = "choi" stops after the Choi units.
+replay_step03_references <- function(paths, units, on_unit, upto = c("all", "choi"), max_ref = 300,
+                                     nasopharynx = c("BHN77", "BHN34", "BHN61", "BHN73")) {
+  upto <- match.arg(upto)
   pos <- fread(file.path(paths$cnv_cache, "cnv_genes.csv"))
-  setorder(pos, chr_n, start)
   meta2 <- fread(paths$epithelial_v2_meta)
   setkey(meta2, cell)
   dbl <- fread(file.path(paths$cnv_cache, "doublets.csv.gz"))
-  out <- list()
-  score <- function(u, cnt, lib) {
-    r <- run_cnv(cnt, lib, rep(TRUE, ncol(cnt)), rep(FALSE, ncol(cnt)), rep(FALSE, ncol(cnt)), pos)
-    q <- quantile(r$cells$signal, probs, names = FALSE)
-    out[[u]] <<- data.table(unit = u, n_ref = ncol(cnt), q95 = q[1], q99 = q[2],
-                            thr_cached = units[[u]]$thr, n_ref_cached = units[[u]]$n_ref)
-  }
   group_sizes_epi <- function(u, prefix_fun) {
     cc <- units[[u]]$cells
     c(Reference = units[[u]]$n_ref, table(prefix_fun(cc)))
@@ -69,7 +66,7 @@ ref_signal_quantiles <- function(paths, units, probs = c(0.95, 0.99), max_ref = 
   for (p in setdiff(unique(am$patient), nasopharynx)) {
     if (grepl("^P[0-9]", p) || !p %in% names(units)) next
     rc <- ref_meta[Patient == p, cell]
-    score(p, ref$counts[, rc, drop = FALSE], colSums(ref$counts[, rc, drop = FALSE]))
+    on_unit(p, ref$counts[, rc, drop = FALSE], colSums(ref$counts[, rc, drop = FALSE]))
     if (p == "BHN70") replay_heat(group_sizes_epi(p, function(cc) paste0("Epithelial: ", cc$cnv_call)))
   }
   ## C2 Choi patients
@@ -84,11 +81,12 @@ ref_signal_quantiles <- function(paths, units, probs = c(0.95, 0.99), max_ref = 
                   .(cell = if (.N > max_ref) sample(cell, max_ref) else cell), by = sample]$cell
     if (length(ca_ref) + length(nl_ref) < 30) next
     cnt <- cbind(ref$counts[g_choi, ca_ref, drop = FALSE], ch$counts[g_choi, nl_ref, drop = FALSE])
-    score(p, cnt, colSums(cnt))
+    on_unit(p, cnt, colSums(cnt))
     if (p == "P15") replay_heat(group_sizes_epi(p, function(cc)
       paste0(fifelse(cc$cell %in% ca, "CA", sub("^Choi_([A-Z]+)[0-9]+_.*$", "\\1", cc$cell)), ": ", cc$cnv_call)))
   }
   rm(ref, ch, chm); invisible(gc())
+  if (upto == "choi") return(invisible(NULL))
   ## C3 Bill
   bm <- meta2[dataset == "GSE234933_Bill"]
   for (s in unique(sub("^Bill_([^_]+)_.*$", "\\1", bm$cell))) {
@@ -99,7 +97,7 @@ ref_signal_quantiles <- function(paths, units, probs = c(0.95, 0.99), max_ref = 
     if (length(nonepi) > max_ref) nonepi <- sample(nonepi, max_ref)
     if (length(nonepi) < 30) next
     raw <- readRDS(file.path(paths$bill_dir, "counts", paste0(s, "_gex_raw_counts.rds")))
-    score(u, raw[pos$gene[pos$gene %in% rownames(raw)], nonepi, drop = FALSE], colSums(raw[, nonepi, drop = FALSE]))
+    on_unit(u, raw[pos$gene[pos$gene %in% rownames(raw)], nonepi, drop = FALSE], colSums(raw[, nonepi, drop = FALSE]))
     rm(raw); invisible(gc())
     if (u == "Bill_HN23") replay_heat(group_sizes_epi(u, function(cc) paste0("Epithelial: ", cc$cnv_call)))
   }
@@ -112,12 +110,38 @@ ref_signal_quantiles <- function(paths, units, probs = c(0.95, 0.99), max_ref = 
     rc <- pa$meta[sample == s & lineage %in% c("immune", "fibroblast", "endothelial") &
                     !cell %in% dbl[dbl_class == "doublet", cell], cell]
     if (length(rc) > max_ref) rc <- sample(rc, max_ref)
-    score(u, pa$counts[, rc, drop = FALSE], colSums(pa$counts[, rc, drop = FALSE]))
+    on_unit(u, pa$counts[, rc, drop = FALSE], colSums(pa$counts[, rc, drop = FALSE]))
   }
   rm(pa); invisible(gc())
+  invisible(NULL)
+}
+
+ref_signal_quantiles <- function(paths, units, probs = c(0.95, 0.99), ...) {
+  pos <- fread(file.path(paths$cnv_cache, "cnv_genes.csv"))
+  setorder(pos, chr_n, start)
+  out <- list()
+  replay_step03_references(paths, units, function(u, cnt, lib) {
+    r <- run_cnv(cnt, lib, rep(TRUE, ncol(cnt)), rep(FALSE, ncol(cnt)), rep(FALSE, ncol(cnt)), pos)
+    q <- quantile(r$cells$signal, probs, names = FALSE)
+    out[[u]] <<- data.table(unit = u, n_ref = ncol(cnt), q95 = q[1], q99 = q[2],
+                            thr_cached = units[[u]]$thr, n_ref_cached = units[[u]]$n_ref)
+  }, ...)
   res <- rbindlist(out)
   res[, match_99 := abs(q99 - thr_cached) <= 1e-9 * thr_cached & n_ref == n_ref_cached]
   res[]
+}
+
+## CNV scores of new cells against a unit's step 03 reference cells and
+## cached tumour-average profile (signal: run_cnv; correlation: with the
+## cached profile, as step 03 did with its own profile)
+score_new_cells <- function(new_counts, ref_counts, unit, pos) {
+  cnt <- cbind(new_counts, ref_counts)
+  is_ref <- rep(c(FALSE, TRUE), c(ncol(new_counts), ncol(ref_counts)))
+  r <- run_cnv(cnt, colSums(cnt), is_ref, !is_ref, rep(FALSE, ncol(cnt)), pos, keep_s = TRUE)
+  prof <- unit$profile
+  corr <- if (is.null(prof)) rep(NA_real_, sum(!is_ref)) else
+    as.vector(cor(r$s[, !is_ref, drop = FALSE], prof[r$genes]))
+  data.table(cell = colnames(new_counts), signal = r$cells$signal[!is_ref], corr = corr, thr99_rebuilt = r$thr)
 }
 
 ## ---- pseudobulk -----------------------------------------------------------
@@ -154,4 +178,48 @@ de_qlf <- function(counts, smp, formula, coef, fdr = 0.05, lfc = 1) {
   tt[, direction := fifelse(!sig, "ns", fifelse(logFC > 0, "up", "down"))]
   list(table = tt, n_samples = ncol(y), n_genes_tested = nrow(y), design = colnames(d),
        df_prior = median(fit$df.prior))
+}
+
+## ---- HGNC symbol harmonisation (HGNC; Seal et al. 2023) -------------------
+## map symbols to current approved symbols: approved -> kept; else a unique
+## previous symbol; else a unique alias; symbols that are previous/alias
+## symbols of several approved genes are ambiguous and dropped; symbols HGNC
+## does not know (e.g. clone-based lncRNA names) are kept unchanged
+read_hgnc <- function(f) {
+  hg <- fread(f, sep = "\t", quote = "", select = c("hgnc_id", "symbol", "status", "prev_symbol",
+                                                   "alias_symbol", "ensembl_gene_id", "locus_group"))
+  hg[, `:=`(prev_symbol = gsub('"', "", prev_symbol), alias_symbol = gsub('"', "", alias_symbol))]
+  hg[status == "Approved"]
+}
+hgnc_map <- function(sym, hg) {
+  long <- function(col) {
+    x <- hg[get(col) != "", .(old = unlist(strsplit(get(col), "|", fixed = TRUE))), by = symbol]
+    x[, .(n_targets = uniqueN(symbol), target = symbol[1]), by = old]
+  }
+  prev <- long("prev_symbol")
+  alias <- long("alias_symbol")
+  res <- data.table(original = sym)
+  res[, how := fcase(original %in% hg$symbol, "approved",
+                     original %in% prev[n_targets == 1, old], "previous",
+                     original %in% prev[n_targets > 1, old], "ambiguous_previous",
+                     original %in% alias[n_targets == 1, old], "alias",
+                     original %in% alias[n_targets > 1, old], "ambiguous_alias",
+                     default = "not_in_hgnc")]
+  res[, mapped := fcase(how == "approved", original,
+                        how == "previous", prev$target[match(original, prev$old)],
+                        how == "alias", alias$target[match(original, alias$old)],
+                        how == "not_in_hgnc", original,
+                        default = NA_character_)]
+  res[]
+}
+## sum rows of a genes x samples matrix by mapped symbol; unmapped rows dropped
+map_rows <- function(m, map) {
+  mp <- map$mapped[match(rownames(m), map$original)]
+  keep <- !is.na(mp)
+  f <- factor(mp[keep])
+  agg <- sparseMatrix(i = as.integer(f), j = which(keep), x = 1, dims = c(nlevels(f), nrow(m)),
+                      dimnames = list(levels(f), NULL))
+  out <- agg %*% m
+  if (!is(m, "sparseMatrix")) out <- as.matrix(out)
+  out
 }

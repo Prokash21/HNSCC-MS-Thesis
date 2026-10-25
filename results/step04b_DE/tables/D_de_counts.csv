@@ -1,0 +1,3 @@
+hpv,C1_patients,C1_genes,C1_up,C1_down,C2_malignant_pb,C2_normal_pb,C2_genes,C2_up,C2_down,cand_up,cand_down,cand_up_list,cand_down_list,C2_sig_not_tested_C1,study_zero_removed,normal_pb
+HPV-,7,9915,124,115,27,7,11617,162,81,142,74,142,73,27,1,BHN60 BHN70 OP10 OP12 OP19 P21 P38
+HPV+,8,8836,259,205,24,8,11431,458,281,292,226,288,222,221,8,OP14 OP17 OP20 OP33 OP34 OP4 OP6 OP9

@@ -67,5 +67,15 @@ paths <- list(
   ## ---- step 04: relabelling, pseudobulk, differential expression ---------
   ref_quantiles      = "data/processed/v2/cnv/ref_signal_quantiles.csv",
   pseudobulk_v2      = "data/processed/v2/pseudobulk_step04.rds",
-  step04             = "results/step04_DE"
+  step04             = "results/step04_DE",
+
+  ## ---- step 04b: normal reference fix, symbols, bulk replication ---------
+  hgnc               = "data/reference/hgnc/hgnc_complete_set.txt",
+  cbio_pancan        = "data/raw/step01_metadata/cbioportal_hnsc_tcga_pan_can_atlas_2018_patient.csv",
+  celltype_pb_v2     = "data/processed/v2/celltype_pseudobulk_v2.rds",
+  choi_reannotated   = "data/processed/v2/choi_nl_lp_reannotated.csv.gz",
+  pseudobulk_v2b     = "data/processed/v2/pseudobulk_step04b.rds",
+  tcga_dir           = "data/raw/tcga_hnsc_star",
+  tcga_counts        = "data/processed/v2/tcga_hnsc_paired_counts.rds",
+  step04b            = "results/step04b_DE"
 )

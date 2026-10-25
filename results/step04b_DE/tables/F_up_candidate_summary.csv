@@ -1,0 +1,13 @@
+TCGA_replicated,specificity,detectable,proliferation,N
+TRUE,shared_with_TME,TRUE,FALSE,71
+TRUE,shared_with_TME,TRUE,TRUE,2
+TRUE,shared_with_TME,FALSE,FALSE,2
+TRUE,tumour_enriched,TRUE,FALSE,34
+TRUE,tumour_enriched,TRUE,TRUE,7
+TRUE,tumour_enriched,FALSE,TRUE,1
+TRUE,tumour_specific,TRUE,FALSE,7
+TRUE,tumour_specific,TRUE,TRUE,1
+FALSE,shared_with_TME,TRUE,FALSE,9
+FALSE,shared_with_TME,FALSE,FALSE,1
+FALSE,tumour_enriched,TRUE,FALSE,6
+FALSE,tumour_specific,TRUE,FALSE,1
