@@ -77,5 +77,12 @@ paths <- list(
   pseudobulk_v2b     = "data/processed/v2/pseudobulk_step04b.rds",
   tcga_dir           = "data/raw/tcga_hnsc_star",
   tcga_counts        = "data/processed/v2/tcga_hnsc_paired_counts.rds",
-  step04b            = "results/step04b_DE"
+  step04b            = "results/step04b_DE",
+
+  ## ---- step 05: TF activity and regulatory networks ----------------------
+  lambert_tfs        = "data/reference/tf_lists/Lambert2018_TF_names_v_1.01.txt",
+  cistarget_dir      = "data/reference/cistarget",
+  step05_export      = "data/processed/v2/step05_export",
+  step05_scenic      = "data/processed/v2/step05_scenic",
+  step05             = "results/step05_TF"
 )
