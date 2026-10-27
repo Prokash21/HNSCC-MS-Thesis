@@ -84,5 +84,10 @@ paths <- list(
   cistarget_dir      = "data/reference/cistarget",
   step05_export      = "data/processed/v2/step05_export",
   step05_scenic      = "data/processed/v2/step05_scenic",
-  step05             = "results/step05_TF"
+  step05             = "results/step05_TF",
+
+  ## ---- step 06: qRT-PCR panel and primers ---------------------------------
+  tcga_site          = "data/raw/step01_metadata/cbioportal_hnsc_tcga_primary_site.csv",
+  tcga_tpm           = "data/processed/v2/tcga_hnsc_paired_tpm.rds",
+  step06             = "results/step06_qPCR"
 )

@@ -1,0 +1,2 @@
+# step 06: primer design (installed into the step 05 environment envs/py310)
+primer3-py==2.4.0

@@ -1,0 +1,43 @@
+gene,role
+SDHA,reference gene
+PSMC5,reference gene
+TBP,reference gene
+HPRT1,reference gene
+ALAS1,reference gene
+PPIA,reference gene
+YWHAZ,reference gene
+GUSB,reference gene
+LAMC2,positive control (up)
+MMP1,positive control (up)
+PDPN,positive control (up)
+KRT13,normal-mucosa control (down)
+KRT4,normal-mucosa control (down)
+NFIC,down-regulated TF marker (step 05)
+CA9,hypoxia marker (Arm B link)
+PRAME,positive control (up)
+MAGEA4,positive control (up)
+SLC2A1,target: tier 1
+CASC9,target: tier 1b
+FOXM1,target: step 05 master regulator
+HOXD11,target: tier 1
+HOXB7,target: tier 1
+IGF2BP3,target: tier 1b
+LY6K,target: tier 1
+AIM2,target: tier 1b
+HMGB3,"target: tier 1, FOXM1 regulon target"
+SLC39A4,target: tier 1
+SH2D2A,target: tier 1b
+LINC01116,target: tier 1b
+ARPC1A,target: tier 1
+TPX2,target: tier 2
+CEP55,target: tier 2
+PLK1,target: tier 2
+SQLE,target: tier 2
+PSMD2,target: tier 2
+MRGBP,target: tier 2
+TRIB3,target: tier 2
+CDKN3,target: tier 2
+SLC52A2,target: tier 2
+HSF1,target: tier 2
+PYCR3,target: tier 2
+CENPN,target: tier 2

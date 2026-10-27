@@ -1,0 +1,16 @@
+gene,tier,direction,panel,panel_TF_in_regulon,panel_TF_in_collectri,any_TF_in_regulon
+HOXD11,1,up,core,"","",TFE3
+HOXB7,1,up,core,"","",HMGA1
+SLC39A4,1,up,reserve,"","",SOX15
+LY6K,1,up,core,"","",FOSL1 IRF7 STAT1
+FOXM1,1,up,core,"",FOXM1 NFIC,E2F7
+ARPC1A,1,up,reserve,"","",MYBL2 NFKB1 TFDP1
+HMGB3,1,up,core,FOXM1,"",FOXM1
+SLC2A1,1,up,core,"","",IRF7 MAF NFE2L1
+CH25H,1b,down,"","","",""
+DEPTOR,1b,down,"","","",""
+IGF2BP3,1b,up,core,"","",KLF13
+LINC01116,1b,up,"","","",DLX2
+AIM2,1b,up,reserve,"","",IRF7 STAT1
+SH2D2A,1b,up,"","","",""
+CASC9,1b,up,core,"","",""
