@@ -47,6 +47,7 @@ min_type <- 20
 min_mal  <- 20
 min_norm <- 10
 excl_normal <- "P9"
+not_ranked  <- c("TRIB3", "MTERF3")   # candidate genes, but not DNA-binding TFs: left out of the TF ranking
 tme_types <- c("CD4T", "CD8T", "NK", "Bcell", "PlasmaCell", "Macrophage", "Monocyte",
                "panDC", "Neutrophils", "Mast", "Fibroblast", "Endothelial")
 pos_up   <- c("MAGEA4", "PRAME", "MMP1", "LAMC2", "PDPN")
@@ -231,6 +232,14 @@ cneg <- wide_c("HPVneg"); cpos <- wide_c("HPVpos")
 fwrite(cneg, file.path(tdir, "C_contrast_activity_HPVneg.csv"))
 fwrite(cpos, file.path(tdir, "C_contrast_activity_HPVpos.csv"))
 
+## C1b. bulk support: ULM on the paired TCGA HPV- tumour vs normal statistic (40 pairs, step 04b);
+## bulk tissue includes the microenvironment, so this is support, not a tumour-cell measure
+s_tcga <- stat_of(rd("E_TCGA_HPVneg_paired_tumour_vs_normal.csv"))
+tca <- ulm(matrix(s_tcga, ncol = 1, dimnames = list(names(s_tcga), "TCGA_HPVneg")))
+tca[, FDR := p.adjust(p_value, "BH")]
+tca <- tca[, .(TF = source, act_TCGA = score, act_TCGA_p = p_value, act_TCGA_FDR = FDR)]
+fwrite(tca[order(act_TCGA_p)], file.path(tdir, "C_TCGA_activity_HPVneg.csv"))
+
 ## C2. patient level: ULM on gene z-scores of log CPM per pseudobulk
 ps <- smp[hpv == "HPV-" & primary_4b == TRUE &
             ((group == "malignant" & n_cells >= min_mal) | (group == "normal" & n_cells >= min_norm & patient != excl_normal))]
@@ -274,6 +283,7 @@ chk <- merge(chk, tfc[, .(TF, n_targets, score_C2, FDR_C2, score_C1, FDR_C1, all
 chk <- merge(chk, de2[, .(TF = gene, expr_C2_logFC = logFC, expr_C2_FDR = FDR)], by = "TF", all.x = TRUE)
 chk <- merge(chk, de1[, .(TF = gene, expr_C1_logFC = logFC, expr_C1_FDR = FDR)], by = "TF", all.x = TRUE)
 chk <- merge(chk, tcga[, .(TF = gene, TCGA_logFC, TCGA_FDR)], by = "TF", all.x = TRUE)
+chk <- merge(chk, tca[, .(TF, act_TCGA, act_TCGA_FDR)], by = "TF", all.x = TRUE)
 chk[, in_check_list := TF %in% check_tfs]
 chk <- chk[in_check_list | !is.na(expr_C2_logFC) | !is.na(score_C2)]
 setorder(chk, -in_check_list, TF)
@@ -310,6 +320,7 @@ ev <- merge(ev, de1[, .(TF = gene, C1_logFC = logFC, C1_FDR = FDR)], by = "TF", 
 ev <- merge(ev, tcga[, .(TF = gene, TCGA_logFC, TCGA_FDR)], by = "TF", all.x = TRUE)
 ev <- merge(ev, tfc[, .(TF, act_C2 = score_C2, act_C2_FDR = FDR_C2, act_C1 = score_C1, act_patient = all_effect,
                         act_patient_FDR = all_FDR)], by = "TF", all.x = TRUE)
+ev <- merge(ev, tca[, .(TF, act_TCGA, act_TCGA_FDR)], by = "TF", all.x = TRUE)
 ra_best <- ra[order(TF, study_p)][, .SD[1], by = TF]
 ev <- merge(ev, ra_best[, .(TF, regulon, regulon_targets = n_targets, regulon_diff = study_diff, regulon_FDR = study_FDR,
                             regulon_MW_FDR = all_FDR, regulon_paired_FDR = paired_FDR, regulon_runs = runs_found)],
@@ -323,14 +334,16 @@ ev[, `:=`(
   e_TCGA = TCGA_FDR < fdr_cut & TCGA_logFC > 0,
   e_act_contrast = act_C2_FDR < fdr_cut & act_C2 > 0,
   e_act_patient = act_patient_FDR < 0.1 & act_patient > 0,
+  e_act_TCGA = act_TCGA_FDR < fdr_cut & act_TCGA > 0,
   e_regulon = regulon_FDR < fdr_cut & regulon_diff > 0 & regulon_runs >= 2,
   e_expression = specificity %in% c("tumour_specific", "tumour_enriched") & detectable %in% TRUE)]
-ecols <- c("e_DE", "e_TCGA", "e_act_contrast", "e_act_patient", "e_regulon", "e_expression")
+ecols <- c("e_DE", "e_TCGA", "e_act_contrast", "e_act_patient", "e_act_TCGA", "e_regulon", "e_expression")
 for (e in ecols) set(ev, which(is.na(ev[[e]])), e, FALSE)
 ev[, score := rowSums(.SD), .SDcols = ecols]
 ## the mirror score for TFs lower / less active in malignant cells
 ev[, score_down := (C2_FDR < fdr_cut & C2_logFC <= -lfc_cut & C1_logFC < 0) %in% TRUE + (TCGA_FDR < fdr_cut & TCGA_logFC < 0) %in% TRUE +
                    (act_C2_FDR < fdr_cut & act_C2 < 0) %in% TRUE + (act_patient_FDR < 0.1 & act_patient < 0) %in% TRUE +
+                   (act_TCGA_FDR < fdr_cut & act_TCGA < 0) %in% TRUE +
                    (regulon_FDR < fdr_cut & regulon_diff < 0 & regulon_runs >= 2) %in% TRUE]
 ## targets that are tier 1/1b genes (CollecTRI and pySCENIC regulon)
 t1 <- cf[tier %in% c("1", "1b"), gene]
@@ -339,6 +352,8 @@ rg_t <- reg[target %in% t1, .(regulon_tier1_targets = paste(sort(unique(target))
 ev <- merge(ev, ct_t, by.x = "TF", by.y = "source", all.x = TRUE)
 ev <- merge(ev, rg_t, by = "TF", all.x = TRUE)
 ev[, `:=`(is_TF_lambert = TF %in% lambert, tier = cf$tier[match(TF, cf$gene)])]
+## not DNA-binding TFs: kept as candidate genes (part A), left out of the TF ranking
+ev <- ev[!TF %in% not_ranked]
 setorder(ev, -score, C2_FDR, act_C2_FDR, na.last = TRUE)
 fwrite(ev, file.path(tdir, "E_convergence_TF.csv"))
 shortlist <- ev[score >= 4]
@@ -396,7 +411,8 @@ if (length(top_reg)) {
 
 ## Fig 24: convergence dot plot (top 25 TFs)
 labs_e <- c(e_DE = "DE up (C2, C1)", e_TCGA = "TCGA up", e_act_contrast = "Activity (contrast)",
-            e_act_patient = "Activity (patient)", e_regulon = "Regulon up (stable)", e_expression = "Tumour-enriched, detectable")
+            e_act_patient = "Activity (patient)", e_act_TCGA = "Activity (TCGA bulk)", e_regulon = "Regulon up (stable)",
+            e_expression = "Tumour-enriched, detectable")
 top_tf <- ev[score > 0][1:min(.N, 25), TF]
 dp <- melt(ev[TF %in% top_tf, c("TF", "score", ecols), with = FALSE], id.vars = c("TF", "score"), variable.name = "evidence", value.name = "met")
 dp[, `:=`(TF = factor(TF, levels = rev(top_tf)), evidence = factor(labs_e[as.character(evidence)], levels = labs_e))]
