@@ -1,0 +1,6 @@
+gene,panel_set,Buffa2010_hypoxia,Gavish2023_MP13_EMTII,Gavish2023_MP1_G2M,Gavish2023_MP6_hypoxia,Puram2017_pEMT,Tirosh2016_G2M,Toustrup2011_hypoxia
+CA9,optional (Arm B),1,0,0,1,0,0,0
+LAMC2,core,0,1,0,0,1,0,0
+PLK1,reserve,0,0,1,0,0,0,0
+SLC2A1,core,1,0,0,1,0,0,1
+TPX2,reserve,0,0,1,0,0,1,0

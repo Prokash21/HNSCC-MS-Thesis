@@ -89,5 +89,15 @@ paths <- list(
   ## ---- step 06: qRT-PCR panel and primers ---------------------------------
   tcga_site          = "data/raw/step01_metadata/cbioportal_hnsc_tcga_primary_site.csv",
   tcga_tpm           = "data/processed/v2/tcga_hnsc_paired_tpm.rds",
-  step06             = "results/step06_qPCR"
+  step06             = "results/step06_qPCR",
+
+  ## ---- step 07a: recurrence arm and survival -----------------------------
+  papers_dir         = "data/raw/step01_metadata/papers",
+  gene_sets_dir      = "config/gene_sets",
+  tcga_all_counts    = "data/raw/step07_bulk/TCGA-HNSC.star_counts.tsv.gz",
+  tcga_cdr           = "data/raw/tcga_cdr/TCGA-CDR-SupplementalTableS1.xlsx",
+  gpl570             = "data/raw/step07_bulk/GPL570.annot.gz",
+  step07a_tcga       = "data/processed/v2/step07a_tcga_hpvneg.rds",
+  step07a_bill       = "data/processed/v2/step07a_bill_cells.rds",
+  step07a            = "results/step07a_recurrence"
 )
