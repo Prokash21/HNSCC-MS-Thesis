@@ -99,5 +99,12 @@ paths <- list(
   gpl570             = "data/raw/step07_bulk/GPL570.annot.gz",
   step07a_tcga       = "data/processed/v2/step07a_tcga_hpvneg.rds",
   step07a_bill       = "data/processed/v2/step07a_bill_cells.rds",
-  step07a            = "results/step07a_recurrence"
+  step07a            = "results/step07a_recurrence",
+
+  ## ---- step 07b: independent validation (GEO cohorts) --------------------
+  gse65858           = "data/raw/step07_bulk/GSE65858_series_matrix.txt.gz",
+  gse41613           = "data/raw/step07_bulk/GSE41613_series_matrix.txt.gz",
+  gpl10558           = "data/raw/step07_bulk/GPL10558.annot.gz",
+  step07b_geo        = "data/processed/v2/step07b_geo.rds",
+  step07b            = "results/step07b_validation"
 )
