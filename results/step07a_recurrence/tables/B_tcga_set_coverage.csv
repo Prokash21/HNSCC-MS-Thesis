@@ -1,0 +1,10 @@
+set,programme,role,genes,in_tcga,coverage
+Toustrup2011_hypoxia,hypoxia,primary,15,15,1
+Buffa2010_hypoxia,hypoxia,primary,51,49,0.961
+Gavish2023_MP6_hypoxia,hypoxia,concordance,50,50,1
+Puram2017_pEMT,p-EMT,primary,100,98,0.98
+Gavish2023_MP13_EMTII,p-EMT,concordance,50,50,1
+Gavish2023_MP2_G1S,proliferation,primary,50,48,0.96
+Gavish2023_MP1_G2M,proliferation,primary,50,47,0.94
+Tirosh2016_G1S,proliferation,concordance,43,43,1
+Tirosh2016_G2M,proliferation,concordance,54,53,0.981
