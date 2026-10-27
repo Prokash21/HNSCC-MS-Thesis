@@ -1,0 +1,8 @@
+site_group,sc_hpv_neg_all,sc_hpv_neg_50,sc_hpv_pos_all,sc_hpv_pos_50,tcga_hpv_neg,tcga_hpv_pos,tcga_normals,tcga_pfi_events,sc_feasible_hpv_neg
+Hypopharynx,1,1,0,0,8,2,0,5,FALSE
+Larynx,1,1,0,0,106,3,12,42,FALSE
+Larynx/Hypopharynx,3,3,0,0,,,,,FALSE
+Nasopharynx,0,0,1,1,,,,,FALSE
+Oral cavity,32,18,0,0,277,18,30,125,TRUE
+Oropharynx,8,8,31,27,24,49,2,23,TRUE
+Unknown,1,1,0,0,,,,,FALSE

@@ -1,0 +1,5 @@
+candidate,hpv,candidates,tested_TCGA,replicated,pct
+up,HPV-,142,142,125,88
+down,HPV-,73,73,63,86.3
+down,HPV+,222,221,0,0
+up,HPV+,288,287,0,0

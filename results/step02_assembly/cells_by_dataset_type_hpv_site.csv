@@ -1,0 +1,53 @@
+dataset,sample_type,compartment,hpv,site,N
+GSE172577_Peng,primary_tumour,unannotated,UNCLEAR,Oral cavity,35762
+GSE181919_Choi,leukoplakia,nonmalignant_label,HPV-,Oral cavity,183
+GSE181919_Choi,normal_mucosa,nonmalignant_label,HPV+,Oropharynx,300
+GSE181919_Choi,normal_mucosa,nonmalignant_label,HPV-,Hypopharynx,264
+GSE181919_Choi,normal_mucosa,nonmalignant_label,HPV-,Oral cavity,199
+GSE181919_Choi,normal_mucosa,nonmalignant_label,HPV-,Oropharynx,47
+GSE234933_Bill,metastasis,nonmalignant_label,HPV+,Nasopharynx,63
+GSE234933_Bill,metastasis,nonmalignant_label,HPV+,Oropharynx,140
+GSE234933_Bill,metastasis,nonmalignant_label,HPV-,Larynx/Hypopharynx,1
+GSE234933_Bill,metastasis,nonmalignant_label,HPV-,Nasopharynx,235
+GSE234933_Bill,metastasis,nonmalignant_label,HPV-,Oral cavity,218
+GSE234933_Bill,metastasis,tumour_label,HPV+,Nasopharynx,194
+GSE234933_Bill,metastasis,tumour_label,HPV+,Oropharynx,3425
+GSE234933_Bill,metastasis,tumour_label,HPV-,Larynx/Hypopharynx,5490
+GSE234933_Bill,metastasis,tumour_label,HPV-,Oral cavity,26
+GSE234933_Bill,metastasis,tumour_label,HPV-,Oropharynx,284
+GSE234933_Bill,metastasis,unannotated,HPV+,Nasopharynx,2
+GSE234933_Bill,metastasis,unannotated,HPV+,Oropharynx,791
+GSE234933_Bill,metastasis,unannotated,HPV-,Larynx/Hypopharynx,1247
+GSE234933_Bill,metastasis,unannotated,HPV-,Oral cavity,8
+GSE234933_Bill,metastasis,unannotated,HPV-,Oropharynx,135
+GSE234933_Bill,recurrence,nonmalignant_label,HPV-,Larynx/Hypopharynx,211
+GSE234933_Bill,recurrence,nonmalignant_label,HPV-,Nasopharynx,730
+GSE234933_Bill,recurrence,nonmalignant_label,HPV-,Oral cavity,47
+GSE234933_Bill,recurrence,tumour_label,HPV+,Oropharynx,399
+GSE234933_Bill,recurrence,tumour_label,HPV-,Larynx/Hypopharynx,2045
+GSE234933_Bill,recurrence,tumour_label,HPV-,Nasopharynx,1685
+GSE234933_Bill,recurrence,tumour_label,HPV-,Oral cavity,803
+GSE234933_Bill,recurrence,unannotated,HPV+,Oropharynx,35
+GSE234933_Bill,recurrence,unannotated,HPV-,Larynx/Hypopharynx,342
+GSE234933_Bill,recurrence,unannotated,HPV-,Nasopharynx,144
+GSE234933_Bill,recurrence,unannotated,HPV-,Oral cavity,174
+HNSCatlas,adjacent_normal,nonmalignant_label,HPV+,Oropharynx,40
+HNSCatlas,adjacent_normal,tumour_label,HPV+,Oropharynx,29
+HNSCatlas,lymph_node,nonmalignant_label,HPV+,Oropharynx,49
+HNSCatlas,lymph_node,tumour_label,HPV+,Oropharynx,53
+HNSCatlas,primary_tumour,nonmalignant_label,HPV+,Nasopharynx,176
+HNSCatlas,primary_tumour,nonmalignant_label,HPV+,Oropharynx,1996
+HNSCatlas,primary_tumour,nonmalignant_label,HPV-,"",18
+HNSCatlas,primary_tumour,nonmalignant_label,HPV-,Hypopharynx,2
+HNSCatlas,primary_tumour,nonmalignant_label,HPV-,Larynx,1
+HNSCatlas,primary_tumour,nonmalignant_label,HPV-,Larynx/Hypopharynx,110
+HNSCatlas,primary_tumour,nonmalignant_label,HPV-,Oral cavity,232
+HNSCatlas,primary_tumour,nonmalignant_label,HPV-,Oropharynx,2191
+HNSCatlas,primary_tumour,tumour_label,HPV+,Nasopharynx,823
+HNSCatlas,primary_tumour,tumour_label,HPV+,Oropharynx,27560
+HNSCatlas,primary_tumour,tumour_label,HPV-,"",236
+HNSCatlas,primary_tumour,tumour_label,HPV-,Hypopharynx,81
+HNSCatlas,primary_tumour,tumour_label,HPV-,Larynx,135
+HNSCatlas,primary_tumour,tumour_label,HPV-,Larynx/Hypopharynx,4441
+HNSCatlas,primary_tumour,tumour_label,HPV-,Oral cavity,5508
+HNSCatlas,primary_tumour,tumour_label,HPV-,Oropharynx,9228

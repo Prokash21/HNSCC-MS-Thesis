@@ -1,0 +1,4 @@
+analysis,C1_patients,C2_malignant,C2_normal,up,up_shared,up_jaccard,up_pct_retained,down,down_jaccard,down_pct_retained,tier12_retained,tier12_total
+(a) strict CNV labels,7,27,7,86,75,0.49,52.8,61,0.718,76.7,22,49
+(b) P9 normal included,7,27,7,142,142,1,100,73,1,100,49,49
+(c) BHN39/46/49 + OP8 added,7,30,7,143,119,0.717,83.8,75,0.805,90.4,45,49

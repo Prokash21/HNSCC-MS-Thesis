@@ -1,0 +1,240 @@
+patient,key,group,n_cells,lib,hpv,study,site,primary_step04,source
+BHN50,BHN50|malignant,malignant,97,802783,HPV+,Bill2023,Oropharynx,TRUE,atlas
+BHN52,BHN52|malignant,malignant,6,23249,HPV+,Bill2023,Oropharynx,TRUE,atlas
+BHN58,BHN58|malignant,malignant,139,517234,HPV+,Bill2023,Oropharynx,TRUE,atlas
+BHN59,BHN59|malignant,malignant,261,2063780,HPV+,Bill2023,Oropharynx,TRUE,atlas
+BHN63,BHN63|malignant,malignant,4306,30265732,HPV+,Bill2023,Oropharynx,TRUE,atlas
+BHN68,BHN68|malignant,malignant,1222,6682293,HPV+,Bill2023,Oropharynx,TRUE,atlas
+BHN76,BHN76|malignant,malignant,519,4244285,HPV+,Bill2023,Oropharynx,TRUE,atlas
+HN12,HN12|malignant,malignant,598,2007936,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+HN13,HN13|malignant,malignant,1045,3574988,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+HN14,HN14|malignant,malignant,204,704024,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+HN16,HN16|malignant,malignant,174,583806,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+HN17,HN17|malignant,malignant,208,547005,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+HN18,HN18|malignant,malignant,66,188343,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+OP13,OP13|malignant,malignant,148,3283524,HPV+,Puram2023,Oropharynx,FALSE,atlas
+OP14,OP14|malignant,malignant,164,3098410,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP17,OP17|malignant,malignant,159,1665416,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP20,OP20|malignant,malignant,1852,16381903,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP33,OP33|malignant,malignant,3161,34058380,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP34,OP34|malignant,malignant,1475,12570428,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP35,OP35|malignant,malignant,120,451510,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP4,OP4|malignant,malignant,1910,42163332,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP5,OP5|malignant,malignant,263,2003866,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP6,OP6|malignant,malignant,410,6103118,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP9,OP9|malignant,malignant,1630,19502966,HPV+,Puram2023,Oropharynx,TRUE,atlas
+P22,P22|malignant,malignant,112,3681934,HPV+,Choi2023,Oropharynx,TRUE,atlas
+P43,P43|malignant,malignant,1556,36775753,HPV+,Choi2023,Oropharynx,TRUE,atlas
+P46,P46|malignant,malignant,17,281035,HPV+,Choi2023,Oropharynx,TRUE,atlas
+P57,P57|malignant,malignant,622,12834399,HPV+,Choi2023,Oropharynx,TRUE,atlas
+P59,P59|malignant,malignant,9,348885,HPV+,Choi2023,Oropharynx,TRUE,atlas
+P86,P86|malignant,malignant,17,185869,HPV+,Choi2023,Oropharynx,TRUE,atlas
+BHN52,BHN52|malignant_label_only,malignant_label_only,18,45043,HPV+,Bill2023,Oropharynx,TRUE,atlas
+BHN58,BHN58|malignant_label_only,malignant_label_only,191,314208,HPV+,Bill2023,Oropharynx,TRUE,atlas
+BHN68,BHN68|malignant_label_only,malignant_label_only,853,2172065,HPV+,Bill2023,Oropharynx,TRUE,atlas
+BHN76,BHN76|malignant_label_only,malignant_label_only,784,3310635,HPV+,Bill2023,Oropharynx,TRUE,atlas
+HN17,HN17|malignant_label_only,malignant_label_only,153,169228,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+OP35,OP35|malignant_label_only,malignant_label_only,74,212349,HPV+,Puram2023,Oropharynx,TRUE,atlas
+P46,P46|malignant_label_only,malignant_label_only,280,4796041,HPV+,Choi2023,Oropharynx,TRUE,atlas
+P59,P59|malignant_label_only,malignant_label_only,32,158517,HPV+,Choi2023,Oropharynx,TRUE,atlas
+P84,P84|malignant_label_only,malignant_label_only,6,48679,HPV+,Choi2023,Oropharynx,TRUE,atlas
+P86,P86|malignant_label_only,malignant_label_only,9,28741,HPV+,Choi2023,Oropharynx,TRUE,atlas
+BHN50,BHN50|malignant_strict,malignant_strict,93,794959,HPV+,Bill2023,Oropharynx,TRUE,atlas
+BHN52,BHN52|malignant_strict,malignant_strict,1,6245,HPV+,Bill2023,Oropharynx,TRUE,atlas
+BHN58,BHN58|malignant_strict,malignant_strict,51,260130,HPV+,Bill2023,Oropharynx,TRUE,atlas
+BHN59,BHN59|malignant_strict,malignant_strict,258,2054206,HPV+,Bill2023,Oropharynx,TRUE,atlas
+BHN63,BHN63|malignant_strict,malignant_strict,3950,29526052,HPV+,Bill2023,Oropharynx,TRUE,atlas
+BHN68,BHN68|malignant_strict,malignant_strict,994,5925042,HPV+,Bill2023,Oropharynx,TRUE,atlas
+BHN76,BHN76|malignant_strict,malignant_strict,499,4184121,HPV+,Bill2023,Oropharynx,TRUE,atlas
+HN12,HN12|malignant_strict,malignant_strict,573,1959477,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+HN13,HN13|malignant_strict,malignant_strict,924,3303835,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+HN14,HN14|malignant_strict,malignant_strict,188,659301,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+HN16,HN16|malignant_strict,malignant_strict,150,537028,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+HN17,HN17|malignant_strict,malignant_strict,168,485108,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+HN18,HN18|malignant_strict,malignant_strict,53,169993,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+OP13,OP13|malignant_strict,malignant_strict,145,3275876,HPV+,Puram2023,Oropharynx,FALSE,atlas
+OP14,OP14|malignant_strict,malignant_strict,158,3078977,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP17,OP17|malignant_strict,malignant_strict,155,1654468,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP20,OP20|malignant_strict,malignant_strict,1593,15460444,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP33,OP33|malignant_strict,malignant_strict,3105,33874813,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP34,OP34|malignant_strict,malignant_strict,1278,11962790,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP35,OP35|malignant_strict,malignant_strict,64,258744,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP4,OP4|malignant_strict,malignant_strict,1887,41901951,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP5,OP5|malignant_strict,malignant_strict,225,1848629,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP6,OP6|malignant_strict,malignant_strict,404,6074262,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP9,OP9|malignant_strict,malignant_strict,1521,18965327,HPV+,Puram2023,Oropharynx,TRUE,atlas
+P22,P22|malignant_strict,malignant_strict,112,3681934,HPV+,Choi2023,Oropharynx,TRUE,atlas
+P43,P43|malignant_strict,malignant_strict,1538,36568451,HPV+,Choi2023,Oropharynx,TRUE,atlas
+P46,P46|malignant_strict,malignant_strict,16,261895,HPV+,Choi2023,Oropharynx,TRUE,atlas
+P57,P57|malignant_strict,malignant_strict,605,12548513,HPV+,Choi2023,Oropharynx,TRUE,atlas
+P59,P59|malignant_strict,malignant_strict,9,348885,HPV+,Choi2023,Oropharynx,TRUE,atlas
+P86,P86|malignant_strict,malignant_strict,17,185869,HPV+,Choi2023,Oropharynx,TRUE,atlas
+HN13,HN13|normal,normal,4,3190,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+HN14,HN14|normal,normal,4,2357,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+HN17,HN17|normal,normal,1,601,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+OP13,OP13|normal,normal,5,244668,HPV+,Puram2023,Oropharynx,FALSE,atlas
+OP14,OP14|normal,normal,54,1300481,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP17,OP17|normal,normal,11,101889,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP20,OP20|normal,normal,30,445863,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP33,OP33|normal,normal,72,1508892,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP34,OP34|normal,normal,14,375284,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP35,OP35|normal,normal,1,5187,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP4,OP4|normal,normal,22,764703,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP5,OP5|normal,normal,1,2706,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP6,OP6|normal,normal,36,377314,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP9,OP9|normal,normal,13,174995,HPV+,Puram2023,Oropharynx,TRUE,atlas
+P22,P22|normal,normal,153,964114,HPV+,Choi2023,Oropharynx,TRUE,Choi
+P43,P43|normal,normal,129,776861,HPV+,Choi2023,Oropharynx,TRUE,Choi
+P46,P46|normal,normal,11,39414,HPV+,Choi2023,Oropharynx,TRUE,Choi
+HN13,HN13|normal_strict,normal_strict,4,3190,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+HN14,HN14|normal_strict,normal_strict,4,2357,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+HN17,HN17|normal_strict,normal_strict,1,601,HPV+,Kurten2021,Oropharynx,TRUE,atlas
+OP13,OP13|normal_strict,normal_strict,5,244668,HPV+,Puram2023,Oropharynx,FALSE,atlas
+OP14,OP14|normal_strict,normal_strict,58,1377442,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP17,OP17|normal_strict,normal_strict,11,101889,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP20,OP20|normal_strict,normal_strict,37,521995,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP33,OP33|normal_strict,normal_strict,86,1747642,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP34,OP34|normal_strict,normal_strict,18,521525,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP35,OP35|normal_strict,normal_strict,2,11700,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP4,OP4|normal_strict,normal_strict,23,836226,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP5,OP5|normal_strict,normal_strict,1,2706,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP6,OP6|normal_strict,normal_strict,42,477642,HPV+,Puram2023,Oropharynx,TRUE,atlas
+OP9,OP9|normal_strict,normal_strict,13,174995,HPV+,Puram2023,Oropharynx,TRUE,atlas
+P22,P22|normal_strict,normal_strict,157,1001127,HPV+,Choi2023,Oropharynx,TRUE,Choi
+P43,P43|normal_strict,normal_strict,129,776861,HPV+,Choi2023,Oropharynx,TRUE,Choi
+P46,P46|normal_strict,normal_strict,12,49176,HPV+,Choi2023,Oropharynx,TRUE,Choi
+P15,P15|LP_CNVneg,LP_CNVneg,3,115337,HPV-,Choi2023,Oral cavity,TRUE,Choi
+P16,P16|LP_CNVneg,LP_CNVneg,17,89055,HPV-,Choi2023,Oral cavity,TRUE,Choi
+P17,P17|LP_CNVneg,LP_CNVneg,15,259758,HPV-,Choi2023,Oral cavity,TRUE,Choi
+P33,P33|LP_CNVneg,LP_CNVneg,9,88586,HPV-,Choi2023,Oral cavity,TRUE,Choi
+P15,P15|LP_CNVpos,LP_CNVpos,65,3222480,HPV-,Choi2023,Oral cavity,TRUE,Choi
+P16,P16|LP_CNVpos,LP_CNVpos,6,94771,HPV-,Choi2023,Oral cavity,TRUE,Choi
+P17,P17|LP_CNVpos,LP_CNVpos,34,1107257,HPV-,Choi2023,Oral cavity,TRUE,Choi
+P33,P33|LP_CNVpos,LP_CNVpos,3,97371,HPV-,Choi2023,Oral cavity,TRUE,Choi
+BHN1,BHN1|malignant,malignant,222,2467050,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN17,BHN17|malignant,malignant,164,2551762,HPV-,Bill2023,,TRUE,atlas
+BHN30,BHN30|malignant,malignant,15,292843,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN31TS,BHN31TS|malignant,malignant,16,195810,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN39,BHN39|malignant,malignant,65,307338,HPV-,Bill2023,Oropharynx,FALSE,atlas
+BHN46,BHN46|malignant,malignant,68,1074573,HPV-,Bill2023,Larynx/Hypopharynx,FALSE,atlas
+BHN49,BHN49|malignant,malignant,17,183546,HPV-,Bill2023,Oral cavity,FALSE,atlas
+BHN60,BHN60|malignant,malignant,1293,15786532,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN64,BHN64|malignant,malignant,1599,19073966,HPV-,Bill2023,Larynx/Hypopharynx,TRUE,atlas
+BHN67,BHN67|malignant,malignant,58,387239,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN7,BHN7|malignant,malignant,278,3031603,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN70,BHN70|malignant,malignant,2413,28201101,HPV-,Bill2023,Larynx/Hypopharynx,TRUE,atlas
+BHN72,BHN72|malignant,malignant,79,1461042,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN75,BHN75|malignant,malignant,83,916949,HPV-,Bill2023,Oral cavity,TRUE,atlas
+HN01,HN01|malignant,malignant,278,972310,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+HN07,HN07|malignant,malignant,64,223428,HPV-,Kurten2021,Larynx,TRUE,atlas
+HN08,HN08|malignant,malignant,16,68999,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+HN09,HN09|malignant,malignant,12,41313,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+HN10,HN10|malignant,malignant,13,42179,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+HN11,HN11|malignant,malignant,1,3172,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+HN15,HN15|malignant,malignant,8,30061,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+OP10,OP10|malignant,malignant,616,19310161,HPV-,Puram2023,Oropharynx,TRUE,atlas
+OP12,OP12|malignant,malignant,1087,36007553,HPV-,Puram2023,Oropharynx,TRUE,atlas
+OP16,OP16|malignant,malignant,213,3126655,HPV-,Puram2023,Oropharynx,TRUE,atlas
+OP19,OP19|malignant,malignant,305,2397491,HPV-,Puram2023,Oropharynx,TRUE,atlas
+OP8,OP8|malignant,malignant,5398,58934926,HPV-,Puram2023,Oropharynx,FALSE,atlas
+P15,P15|malignant,malignant,55,1756936,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P21,P21|malignant,malignant,288,13068981,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P26,P26|malignant,malignant,86,4501122,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P30,P30|malignant,malignant,102,7014984,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P31,P31|malignant,malignant,44,2142045,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P38,P38|malignant,malignant,80,2422965,HPV-,Choi2023,Hypopharynx,TRUE,atlas
+P4,P4|malignant,malignant,495,23688701,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P51,P51|malignant,malignant,263,8115021,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P6,P6|malignant,malignant,47,1912442,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P60,P60|malignant,malignant,12,343076,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P7,P7|malignant,malignant,32,1547083,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P8,P8|malignant,malignant,870,21680131,HPV-,Choi2023,Oropharynx,TRUE,atlas
+P9,P9|malignant,malignant,85,1341597,HPV-,Choi2023,Oropharynx,TRUE,atlas
+BHN1,BHN1|malignant_label_only,malignant_label_only,304,496951,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN30,BHN30|malignant_label_only,malignant_label_only,7,16612,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN31TS,BHN31TS|malignant_label_only,malignant_label_only,23,142291,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN39,BHN39|malignant_label_only,malignant_label_only,251,424772,HPV-,Bill2023,Oropharynx,FALSE,atlas
+BHN40-3-05,BHN40-3-05|malignant_label_only,malignant_label_only,9,50815,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN46,BHN46|malignant_label_only,malignant_label_only,111,301490,HPV-,Bill2023,Larynx/Hypopharynx,FALSE,atlas
+BHN49,BHN49|malignant_label_only,malignant_label_only,9,16090,HPV-,Bill2023,Oral cavity,FALSE,atlas
+BHN67,BHN67|malignant_label_only,malignant_label_only,62,103925,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN7,BHN7|malignant_label_only,malignant_label_only,266,714372,HPV-,Bill2023,Oral cavity,TRUE,atlas
+HN06,HN06|malignant_label_only,malignant_label_only,7,19008,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+HN07,HN07|malignant_label_only,malignant_label_only,60,115594,HPV-,Kurten2021,Larynx,TRUE,atlas
+HN08,HN08|malignant_label_only,malignant_label_only,130,343762,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+HN09,HN09|malignant_label_only,malignant_label_only,26,39829,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+HN10,HN10|malignant_label_only,malignant_label_only,32,61872,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+HN11,HN11|malignant_label_only,malignant_label_only,64,146080,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+HN15,HN15|malignant_label_only,malignant_label_only,35,74793,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+P60,P60|malignant_label_only,malignant_label_only,15,518261,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P9,P9|malignant_label_only,malignant_label_only,94,1030876,HPV-,Choi2023,Oropharynx,TRUE,atlas
+BHN1,BHN1|malignant_strict,malignant_strict,184,2353344,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN17,BHN17|malignant_strict,malignant_strict,161,2543918,HPV-,Bill2023,,TRUE,atlas
+BHN30,BHN30|malignant_strict,malignant_strict,12,285832,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN31TS,BHN31TS|malignant_strict,malignant_strict,7,99292,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN39,BHN39|malignant_strict,malignant_strict,15,116435,HPV-,Bill2023,Oropharynx,FALSE,atlas
+BHN46,BHN46|malignant_strict,malignant_strict,59,1029228,HPV-,Bill2023,Larynx/Hypopharynx,FALSE,atlas
+BHN49,BHN49|malignant_strict,malignant_strict,16,180180,HPV-,Bill2023,Oral cavity,FALSE,atlas
+BHN60,BHN60|malignant_strict,malignant_strict,1254,15680606,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN64,BHN64|malignant_strict,malignant_strict,1537,18910980,HPV-,Bill2023,Larynx/Hypopharynx,TRUE,atlas
+BHN67,BHN67|malignant_strict,malignant_strict,46,354178,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN7,BHN7|malignant_strict,malignant_strict,144,1846883,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN70,BHN70|malignant_strict,malignant_strict,2121,26751873,HPV-,Bill2023,Larynx/Hypopharynx,TRUE,atlas
+BHN72,BHN72|malignant_strict,malignant_strict,76,1450926,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN75,BHN75|malignant_strict,malignant_strict,71,867300,HPV-,Bill2023,Oral cavity,TRUE,atlas
+HN01,HN01|malignant_strict,malignant_strict,208,775170,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+HN07,HN07|malignant_strict,malignant_strict,53,195530,HPV-,Kurten2021,Larynx,TRUE,atlas
+HN08,HN08|malignant_strict,malignant_strict,12,53543,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+HN09,HN09|malignant_strict,malignant_strict,8,28230,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+HN10,HN10|malignant_strict,malignant_strict,6,21618,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+HN15,HN15|malignant_strict,malignant_strict,6,23401,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+OP10,OP10|malignant_strict,malignant_strict,572,19034630,HPV-,Puram2023,Oropharynx,TRUE,atlas
+OP12,OP12|malignant_strict,malignant_strict,1015,35398441,HPV-,Puram2023,Oropharynx,TRUE,atlas
+OP16,OP16|malignant_strict,malignant_strict,188,3044227,HPV-,Puram2023,Oropharynx,TRUE,atlas
+OP19,OP19|malignant_strict,malignant_strict,272,2283241,HPV-,Puram2023,Oropharynx,TRUE,atlas
+OP8,OP8|malignant_strict,malignant_strict,4898,56625397,HPV-,Puram2023,Oropharynx,FALSE,atlas
+P15,P15|malignant_strict,malignant_strict,53,1714101,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P21,P21|malignant_strict,malignant_strict,288,13068981,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P26,P26|malignant_strict,malignant_strict,86,4501122,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P30,P30|malignant_strict,malignant_strict,102,7014984,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P31,P31|malignant_strict,malignant_strict,35,1686841,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P38,P38|malignant_strict,malignant_strict,80,2422965,HPV-,Choi2023,Hypopharynx,TRUE,atlas
+P4,P4|malignant_strict,malignant_strict,476,23184281,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P51,P51|malignant_strict,malignant_strict,255,7875116,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P6,P6|malignant_strict,malignant_strict,47,1912442,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P60,P60|malignant_strict,malignant_strict,12,343076,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P7,P7|malignant_strict,malignant_strict,32,1547083,HPV-,Choi2023,Oral cavity,TRUE,atlas
+P8,P8|malignant_strict,malignant_strict,870,21680131,HPV-,Choi2023,Oropharynx,TRUE,atlas
+P9,P9|malignant_strict,malignant_strict,24,344834,HPV-,Choi2023,Oropharynx,TRUE,atlas
+BHN30,BHN30|normal,normal,1,1052,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN60,BHN60|normal,normal,25,214316,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN64,BHN64|normal,normal,2,14746,HPV-,Bill2023,Larynx/Hypopharynx,TRUE,atlas
+BHN70,BHN70|normal,normal,19,138661,HPV-,Bill2023,Larynx/Hypopharynx,TRUE,atlas
+HN07,HN07|normal,normal,1,547,HPV-,Kurten2021,Larynx,TRUE,atlas
+HN11,HN11|normal,normal,1,635,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+OP10,OP10|normal,normal,30,793774,HPV-,Puram2023,Oropharynx,TRUE,atlas
+OP12,OP12|normal,normal,96,2141360,HPV-,Puram2023,Oropharynx,TRUE,atlas
+OP19,OP19|normal,normal,85,458912,HPV-,Puram2023,Oropharynx,TRUE,atlas
+OP8,OP8|normal,normal,3,21444,HPV-,Puram2023,Oropharynx,FALSE,atlas
+P15,P15|normal,normal,79,204109,HPV-,Choi2023,Oral cavity,TRUE,Choi
+P21,P21|normal,normal,28,336492,HPV-,Choi2023,Oral cavity,TRUE,Choi
+P38,P38|normal,normal,222,1226117,HPV-,Choi2023,Hypopharynx,TRUE,Choi
+P6,P6|normal,normal,85,190094,HPV-,Choi2023,Oral cavity,TRUE,Choi
+P8,P8|normal,normal,10,235469,HPV-,Choi2023,Oropharynx,TRUE,Choi
+P9,P9|normal,normal,35,107454,HPV-,Choi2023,Oropharynx,TRUE,Choi
+BHN30,BHN30|normal_strict,normal_strict,2,3654,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN60,BHN60|normal_strict,normal_strict,27,233656,HPV-,Bill2023,Oral cavity,TRUE,atlas
+BHN64,BHN64|normal_strict,normal_strict,3,21328,HPV-,Bill2023,Larynx/Hypopharynx,TRUE,atlas
+BHN70,BHN70|normal_strict,normal_strict,25,212768,HPV-,Bill2023,Larynx/Hypopharynx,TRUE,atlas
+HN07,HN07|normal_strict,normal_strict,1,547,HPV-,Kurten2021,Larynx,TRUE,atlas
+HN11,HN11|normal_strict,normal_strict,1,635,HPV-,Kurten2021,Oral cavity,TRUE,atlas
+OP10,OP10|normal_strict,normal_strict,33,844016,HPV-,Puram2023,Oropharynx,TRUE,atlas
+OP12,OP12|normal_strict,normal_strict,98,2157266,HPV-,Puram2023,Oropharynx,TRUE,atlas
+OP19,OP19|normal_strict,normal_strict,112,703595,HPV-,Puram2023,Oropharynx,TRUE,atlas
+OP8,OP8|normal_strict,normal_strict,4,28682,HPV-,Puram2023,Oropharynx,FALSE,atlas
+P15,P15|normal_strict,normal_strict,80,214721,HPV-,Choi2023,Oral cavity,TRUE,Choi
+P21,P21|normal_strict,normal_strict,32,370264,HPV-,Choi2023,Oral cavity,TRUE,Choi
+P38,P38|normal_strict,normal_strict,257,1562655,HPV-,Choi2023,Hypopharynx,TRUE,Choi
+P6,P6|normal_strict,normal_strict,85,190094,HPV-,Choi2023,Oral cavity,TRUE,Choi
+P8,P8|normal_strict,normal_strict,10,235469,HPV-,Choi2023,Oropharynx,TRUE,Choi
+P9,P9|normal_strict,normal_strict,37,115955,HPV-,Choi2023,Oropharynx,TRUE,Choi

@@ -1,6 +1,10 @@
-# large data (raw downloads, processed objects, the 4 GB atlas)
+# data: raw downloads, processed objects, the 4 GB atlas
 data/
 *.rds
+*.h5ad
+*.h5
+*.RData
+*.rda
 
 # R session files
 .RData
@@ -8,17 +12,25 @@ data/
 .Rhistory
 .Rproj.user/
 
-# macOS
+# OS / editor
 .DS_Store
-
-# editor
 .vscode/
 
-# large / third-party files (kept local only)
-HNSCC-HPV/docs/PIIS*.pdf
-HNSCC-HPV/docs/HPV-Positive*.pdf
-HNSCC-HPV/results/02_normal_cleaning/Fig3b_CNV_check.pdf
-HNSCC-HPV/results/02_normal_cleaning/tables/cnv_scores_per_cell.csv
+# reference papers and large / private documents (kept local only)
+docs/references/*.pdf
+docs/pipeline/HNSCC_Research_Pipeline_E.docx
+docs/pipeline/HNSCC_Research_Pipeline_E.pdf
+docs/pipeline/HPV-Positive*.pdf
 PLAN/HNSCC_Research_Plan.docx
-HNSCC-HPV/docs/HNSCC_Research_Pipeline_E.docx
-HNSCC-HPV/docs/HNSCC_Research_Pipeline_E.pdf
+
+# large v1 outputs (kept local only)
+archive_v1_HPVpos/results/02_normal_cleaning/Fig3b_CNV_check.pdf
+archive_v1_HPVpos/results/02_normal_cleaning/tables/cnv_scores_per_cell.csv
+
+# local context and tool settings (never tracked)
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+
+# large step 03 figure (PNG version is tracked)
+results/step03_cnv/Fig11_cnv_heatmaps.pdf

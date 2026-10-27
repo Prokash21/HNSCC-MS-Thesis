@@ -1,0 +1,8 @@
+dataset,hpv,doublet,excluded,leukoplakia_epithelial,malignant,normal_epithelial,uncertain
+GSE172577_Peng,UNCLEAR,4278,0,0,15143,0,16341
+GSE181919_Choi,HPV+,0,0,0,0,298,2
+GSE181919_Choi,HPV-,0,0,183,0,501,9
+GSE234933_Bill,HPV+,280,259,0,2644,0,1866
+GSE234933_Bill,HPV-,600,2794,0,7332,0,3099
+HNSCatlas,HPV+,0,999,0,23526,305,5896
+HNSCatlas,HPV-,0,0,0,17137,306,4740

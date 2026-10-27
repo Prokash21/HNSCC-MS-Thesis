@@ -1,0 +1,5 @@
+dataset,rows,approved,renamed_previous,renamed_alias,ambiguous_dropped,not_in_hgnc_kept,symbols_after,rows_merged
+HNSCatlas,45075,22452,1567,461,12,20583,44314,749
+GSE181919_Choi,20000,16079,1140,146,4,2631,19965,31
+GSE234933_Bill,33514,22334,1004,198,7,9971,33425,82
+GSE172577_Peng,33694,20771,1447,286,5,11185,33609,80

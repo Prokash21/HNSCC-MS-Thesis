@@ -1,0 +1,13 @@
+dataset,sample,patient,sample_type,hpv,epithelial,malignant_p99,malignant_p95,pct_malignant_p95,pct_uncertain_p95
+GSE181919_Choi,N06,P6,normal_mucosa,HPV-,86,0,0,0,1.2
+GSE181919_Choi,N08,P8,normal_mucosa,HPV-,10,0,0,0,0
+GSE181919_Choi,N09,P9,normal_mucosa,HPV-,37,0,0,0,5.4
+GSE181919_Choi,N15,P15,normal_mucosa,HPV-,80,0,0,0,1.2
+GSE181919_Choi,N21,P21,normal_mucosa,HPV-,33,0,0,0,15.2
+GSE181919_Choi,N22,P22,normal_mucosa,HPV+,158,0,0,0,3.2
+GSE181919_Choi,N38,P38,normal_mucosa,HPV-,264,0,0,0,15.9
+GSE181919_Choi,N43,P43,normal_mucosa,HPV+,130,0,0,0,0.8
+GSE181919_Choi,N46,P46,normal_mucosa,HPV+,12,0,0,0,8.3
+HNSCatlas,Puram_OP33norm,OP33,adjacent_normal,HPV+,17,0,0,0,5.9
+HNSCatlas,Puram_OP34norm,OP34,adjacent_normal,HPV+,49,26,26,53.1,18.4
+HNSCatlas,Puram_OP35norm,OP35,adjacent_normal,HPV+,3,0,0,0,66.7

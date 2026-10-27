@@ -1,0 +1,12 @@
+unit,epithelial_compared,ours_malignant,copykat_aneuploid,both_malignant,both_non,ours_mal_ck_diploid,ours_non_ck_aneuploid,ours_uncertain,ours_uncertain_ck_aneuploid,ck_not_defined,agreement_pct
+Bill_HN23,600,242,417,237,33,0,66,154,114,141,80.4
+Bill_HN35,285,148,231,147,0,0,27,69,57,54,84.5
+Bill_HN43,597,398,425,380,7,0,7,124,38,163,98.2
+BHN60,600,531,482,482,14,43,0,55,0,42,92
+BHN64,600,552,570,549,2,0,0,37,21,27,100
+BHN70,600,474,532,471,7,3,0,112,61,34,99.4
+HN01,439,208,236,161,0,0,12,199,63,203,93.1
+Peng_SYSMH4,600,18,345,14,146,4,20,401,311,16,87
+Peng_SYSMH5,600,451,557,451,13,0,65,51,41,30,87.7
+OP10,600,485,550,485,44,0,4,67,61,1,99.2
+OP12,600,449,389,357,67,92,1,83,31,2,82

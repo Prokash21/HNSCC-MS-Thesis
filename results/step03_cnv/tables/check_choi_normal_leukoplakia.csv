@@ -1,0 +1,14 @@
+sample,patient,sample_type,hpv,epithelial,cnv_malignant,pct_malignant,pct_uncertain,unit_informative
+LP15,P15,leukoplakia,HPV-,72,62,86.1,9.7,TRUE
+LP16,P16,leukoplakia,HPV-,30,1,3.3,40,FALSE
+LP17,P17,leukoplakia,HPV-,51,33,64.7,5.9,TRUE
+LP33,P33,leukoplakia,HPV-,30,1,3.3,66.7,FALSE
+N06,P6,normal_mucosa,HPV-,86,0,0,1.2,TRUE
+N08,P8,normal_mucosa,HPV-,10,0,0,0,TRUE
+N09,P9,normal_mucosa,HPV-,37,0,0,0,FALSE
+N15,P15,normal_mucosa,HPV-,80,0,0,0,TRUE
+N21,P21,normal_mucosa,HPV-,33,0,0,3,TRUE
+N22,P22,normal_mucosa,HPV+,158,0,0,0.6,TRUE
+N38,P38,normal_mucosa,HPV-,264,0,0,2.7,TRUE
+N43,P43,normal_mucosa,HPV+,130,0,0,0.8,TRUE
+N46,P46,normal_mucosa,HPV+,12,0,0,0,FALSE

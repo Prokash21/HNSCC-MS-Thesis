@@ -1,0 +1,58 @@
+role,dataset,patient,sample_type,site,tumour_cells,tumour_cells_not_suspect
+discovery,HNSCatlas,BHN70,primary_tumour,Larynx/Hypopharynx,2644,2644
+discovery,HNSCatlas,BHN64,primary_tumour,Larynx/Hypopharynx,1620,1620
+discovery,HNSCatlas,BHN60,primary_tumour,Oral cavity,1391,1391
+discovery,HNSCatlas,OP12,primary_tumour,Oropharynx,1187,1187
+discovery,HNSCatlas,P8,primary_tumour,Oropharynx,731,731
+discovery,HNSCatlas,OP10,primary_tumour,Oropharynx,649,649
+discovery,HNSCatlas,BHN7,primary_tumour,Oral cavity,518,518
+discovery,HNSCatlas,BHN1,primary_tumour,Oral cavity,505,505
+discovery,HNSCatlas,HN15,primary_tumour,Oral cavity,478,43
+discovery,HNSCatlas,HN01,primary_tumour,Oral cavity,445,307
+discovery,HNSCatlas,P4,primary_tumour,Oral cavity,427,427
+discovery,HNSCatlas,OP19,primary_tumour,Oropharynx,359,359
+discovery,HNSCatlas,BHN39,primary_tumour,Oropharynx,316,316
+discovery,HNSCatlas,P51,primary_tumour,Oral cavity,274,274
+discovery,HNSCatlas,P21,primary_tumour,Oral cavity,272,272
+discovery,HNSCatlas,OP16,primary_tumour,Oropharynx,260,260
+discovery,HNSCatlas,BHN17,primary_tumour,"",236,236
+discovery,HNSCatlas,P9,primary_tumour,Oropharynx,178,178
+discovery,HNSCatlas,BHN46,primary_tumour,Larynx/Hypopharynx,177,177
+discovery,HNSCatlas,HN08,primary_tumour,Oral cavity,173,146
+discovery,HNSCatlas,HN07,primary_tumour,Larynx,135,119
+discovery,HNSCatlas,BHN67,primary_tumour,Oral cavity,120,120
+discovery,HNSCatlas,BHN75,primary_tumour,Oral cavity,105,105
+discovery,HNSCatlas,BHN72,primary_tumour,Oral cavity,98,98
+discovery,HNSCatlas,P30,primary_tumour,Oral cavity,94,94
+discovery,HNSCatlas,P26,primary_tumour,Oral cavity,83,83
+discovery,HNSCatlas,P38,primary_tumour,Hypopharynx,81,81
+discovery,HNSCatlas,HN11,primary_tumour,Oral cavity,67,65
+discovery,HNSCatlas,HN10,primary_tumour,Oral cavity,65,45
+discovery,HNSCatlas,P15,primary_tumour,Oral cavity,59,59
+discovery,HNSCatlas,P6,primary_tumour,Oral cavity,52,52
+discovery,HNSCatlas,HN09,primary_tumour,Oral cavity,48,38
+discovery,HNSCatlas,P31,primary_tumour,Oral cavity,45,45
+discovery,HNSCatlas,P7,primary_tumour,Oral cavity,43,43
+discovery,HNSCatlas,BHN31TS,primary_tumour,Oral cavity,39,39
+discovery,HNSCatlas,P60,primary_tumour,Oral cavity,27,27
+discovery,HNSCatlas,BHN49,primary_tumour,Oral cavity,26,26
+discovery,HNSCatlas,BHN30,primary_tumour,Oral cavity,20,20
+discovery,HNSCatlas,HN06,primary_tumour,Oral cavity,18,7
+discovery,HNSCatlas,BHN40-3-05,primary_tumour,Oral cavity,9,9
+discovery,HNSCatlas,HN05,primary_tumour,Oral cavity,7,0
+recurrence,GSE234933_Bill,BHN13,metastasis,Larynx/Hypopharynx,4212,4212
+recurrence,GSE234933_Bill,BHN8,metastasis,Larynx/Hypopharynx,1278,1278
+recurrence,GSE234933_Bill,BHN23,recurrence,Larynx/Hypopharynx,813,813
+recurrence,GSE234933_Bill,BHN43,recurrence,Larynx/Hypopharynx,596,596
+recurrence,GSE234933_Bill,BHN45,recurrence,Larynx/Hypopharynx,290,290
+recurrence,GSE234933_Bill,BHN14,metastasis,Oropharynx,284,284
+recurrence,GSE234933_Bill,BHN35,recurrence,Oral cavity,258,258
+recurrence,GSE234933_Bill,BHN20,recurrence,Oral cavity,248,248
+recurrence,GSE234933_Bill,BHN26,recurrence,Oral cavity,174,174
+recurrence,GSE234933_Bill,BHN55,recurrence,Larynx/Hypopharynx,159,159
+recurrence,GSE234933_Bill,BHN29,recurrence,Larynx/Hypopharynx,149,149
+recurrence,GSE234933_Bill,BHN38,recurrence,Oral cavity,74,74
+recurrence,GSE234933_Bill,BHN37,recurrence,Larynx/Hypopharynx,38,38
+recurrence,GSE234933_Bill,BHN22,recurrence,Oral cavity,27,27
+recurrence,GSE234933_Bill,BHN2,metastasis,Oral cavity,26,26
+recurrence,GSE234933_Bill,BHN32T,recurrence,Oral cavity,22,22

@@ -1,0 +1,38 @@
+sample_id,gsm,patient_id,tissue_type,site,hpv,sex,age,total_cells,epithelial_cells,malignant_cells,patient_in_atlas,sample_in_atlas
+LP15,GSM5514384,P15,Leukoplakia,Oral cavity,HPV-,F,56,2228,72,0,TRUE,FALSE
+LP16,GSM5514385,P16,Leukoplakia,Oral cavity,HPV-,M,74,2238,30,0,FALSE,FALSE
+LP17,GSM5514386,P17,Leukoplakia,Oral cavity,HPV-,M,49,1238,51,0,FALSE,FALSE
+LP33,GSM5514387,P33,Leukoplakia,Oral cavity,HPV-,F,65,823,30,0,FALSE,FALSE
+LN22,GSM5514371,P22,Lymph node metastasis,Oropharynx,HPV+,M,50,1260,0,75,TRUE,FALSE
+LN38,GSM5514372,P38,Lymph node metastasis,Hypopharynx,HPV-,M,73,1656,0,31,TRUE,FALSE
+LN46,GSM5514373,P46,Lymph node metastasis,Oropharynx,HPV+,M,60,2612,0,130,TRUE,FALSE
+LN59,GSM5514374,P59,Lymph node metastasis,Oropharynx,HPV+,M,77,2676,0,48,TRUE,FALSE
+N15,GSM5514375,P15,Normal mucosa,Oral cavity,HPV-,F,56,2695,80,0,TRUE,FALSE
+N21,GSM5514376,P21,Normal mucosa,Oral cavity,HPV-,M,69,2435,33,0,TRUE,FALSE
+N22,GSM5514377,P22,Normal mucosa,Oropharynx,HPV+,M,50,2399,158,0,TRUE,FALSE
+N38,GSM5514378,P38,Normal mucosa,Hypopharynx,HPV-,M,73,951,264,0,TRUE,FALSE
+N43,GSM5514379,P43,Normal mucosa,Oropharynx,HPV+,M,56,2228,130,0,TRUE,FALSE
+N46,GSM5514380,P46,Normal mucosa,Oropharynx,HPV+,M,60,1186,12,0,TRUE,FALSE
+N06,GSM5514381,P6,Normal mucosa,Oral cavity,HPV-,M,58,2102,86,0,TRUE,FALSE
+N08,GSM5514382,P8,Normal mucosa,Oropharynx,HPV-,M,77,712,10,0,TRUE,FALSE
+N09,GSM5514383,P9,Normal mucosa,Oropharynx,HPV-,F,64,1712,37,0,TRUE,FALSE
+C15,GSM5514353,P15,Primary cancer,Oral cavity,HPV-,F,56,1731,0,59,TRUE,TRUE
+C21,GSM5514354,P21,Primary cancer,Oral cavity,HPV-,M,69,697,0,272,TRUE,TRUE
+C22,GSM5514355,P22,Primary cancer,Oropharynx,HPV+,M,50,1143,0,107,TRUE,TRUE
+C26,GSM5514356,P26,Primary cancer,Oral cavity,HPV-,M,57,944,0,83,TRUE,TRUE
+C30,GSM5514357,P30,Primary cancer,Oral cavity,HPV-,M,54,282,0,94,TRUE,TRUE
+C31,GSM5514358,P31,Primary cancer,Oral cavity,HPV-,M,66,523,0,45,TRUE,TRUE
+C38,GSM5514359,P38,Primary cancer,Hypopharynx,HPV-,M,73,1049,0,81,TRUE,TRUE
+C04,GSM5514352,P4,Primary cancer,Oral cavity,HPV-,F,58,608,0,427,TRUE,TRUE
+C43,GSM5514360,P43,Primary cancer,Oropharynx,HPV+,M,56,1662,0,1367,TRUE,TRUE
+C46,GSM5514361,P46,Primary cancer,Oropharynx,HPV+,M,60,1413,0,297,TRUE,TRUE
+C51,GSM5514362,P51,Primary cancer,Oral cavity,HPV-,M,53,1801,0,274,TRUE,TRUE
+C57,GSM5514363,P57,Primary cancer,Oropharynx,HPV+,M,72,1104,0,619,TRUE,TRUE
+C59,GSM5514364,P59,Primary cancer,Oropharynx,HPV+,M,77,2350,0,41,TRUE,TRUE
+C06,GSM5514365,P6,Primary cancer,Oral cavity,HPV-,M,58,1327,0,52,TRUE,TRUE
+C60,GSM5514388,P60,Primary cancer,Oral cavity,HPV-,F,56,1948,0,27,TRUE,TRUE
+C07,GSM5514366,P7,Primary cancer,Oral cavity,HPV-,M,53,536,0,43,TRUE,TRUE
+C08,GSM5514367,P8,Primary cancer,Oropharynx,HPV-,M,77,1206,0,731,TRUE,TRUE
+C84,GSM5514368,P84,Primary cancer,Oropharynx,HPV+,M,77,830,0,6,TRUE,TRUE
+C86,GSM5514369,P86,Primary cancer,Oropharynx,HPV+,F,44,1084,0,26,TRUE,TRUE
+C09,GSM5514370,P9,Primary cancer,Oropharynx,HPV-,F,64,850,0,178,TRUE,TRUE

@@ -1,0 +1,17 @@
+specificity,detectable,set,N
+shared_with_TME,TRUE,C1 up (primary),30
+shared_with_TME,FALSE,C1 up (primary),1
+tumour_enriched,TRUE,C1 up (primary),40
+tumour_specific,TRUE,C1 up (primary),3
+shared_with_TME,TRUE,C2 up,258
+shared_with_TME,FALSE,C2 up,58
+tumour_enriched,TRUE,C2 up,233
+tumour_enriched,FALSE,C2 up,25
+tumour_specific,TRUE,C2 up,66
+tumour_specific,FALSE,C2 up,28
+shared_with_TME,TRUE,C2 up only (extended),230
+shared_with_TME,FALSE,C2 up only (extended),57
+tumour_enriched,TRUE,C2 up only (extended),194
+tumour_enriched,FALSE,C2 up only (extended),25
+tumour_specific,TRUE,C2 up only (extended),63
+tumour_specific,FALSE,C2 up only (extended),28

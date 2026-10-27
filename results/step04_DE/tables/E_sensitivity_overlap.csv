@@ -1,0 +1,10 @@
+analysis,patients,patients_added,patients_lost,normal_pb_lost,sig_up,shared_with_primary,jaccard,pct_primary_retained
+primary C1,9,"","","",74,74,1,100
+(a) strict CNV labels (99th pct),10,BHN70,"","",110,61,0.496,82.4
+(b) label_only cells added,9,"","","",105,74,0.705,100
+(c) BHN39/46/49 + OP8 added (C1),9,"","","",74,74,1,100
+(d) additional: Choi normal-mucosa pairs only,5,"",BHN60 OP10 OP12 OP19,BHN60 OP10 OP12 OP19,0,0,0,0
+(e) additional: non-squamous normal pseudobulks removed (C1),7,"",P15 P6,P15 P6,4,4,0.054,5.4
+(e') additional: non-squamous normals removed (C2 design; vs primary C2),27,"","",P15 P6,281,258,0.373,38.6
+"(e'') additional: HPV+ C1, non-squamous normals removed (vs HPV+ C1)",5,"",P22 P43,P22 P43,68,40,0.374,50.6
+(c') BHN39/46/49 + OP8 added (C2 design; vs primary C2),30,BHN39 BHN46 OP8,"","",671,614,0.847,91.9

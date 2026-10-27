@@ -1,0 +1,17 @@
+sample,cell_state_primary,cell_state_strict,N
+LP15,LP_CNVpos,LP_uncertain,3
+LP15,LP_CNVpos,LP_CNVpos,62
+LP15,LP_uncertain,LP_uncertain,4
+LP15,LP_CNVneg,LP_CNVneg,3
+LP16,LP_CNVneg,LP_CNVneg,17
+LP16,LP_CNVpos,LP_uncertain,5
+LP16,LP_uncertain,LP_uncertain,7
+LP16,LP_CNVpos,LP_CNVpos,1
+LP17,LP_CNVneg,LP_CNVneg,15
+LP17,LP_CNVpos,LP_CNVpos,33
+LP17,LP_uncertain,LP_uncertain,2
+LP17,LP_CNVpos,LP_uncertain,1
+LP33,LP_uncertain,LP_uncertain,18
+LP33,LP_CNVneg,LP_CNVneg,9
+LP33,LP_CNVpos,LP_CNVpos,1
+LP33,LP_CNVpos,LP_uncertain,2
