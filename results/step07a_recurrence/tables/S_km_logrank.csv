@@ -1,0 +1,11 @@
+endpoint,set,n_low,n_high,events_low,events_high,cutoff,logrank_p
+PFI,Toustrup2011_hypoxia,208,207,78,90,median of the score in the analysed patients,0.221628095773059
+PFI,Buffa2010_hypoxia,208,207,77,91,median of the score in the analysed patients,0.0990388975669315
+PFI,Puram2017_pEMT,208,207,78,90,median of the score in the analysed patients,0.247385485631153
+PFI,Gavish2023_MP2_G1S,208,207,74,94,median of the score in the analysed patients,0.0368222326022733
+PFI,Gavish2023_MP1_G2M,208,207,74,94,median of the score in the analysed patients,0.0639127938404872
+OS,Toustrup2011_hypoxia,208,207,85,106,median of the score in the analysed patients,0.0798771313188628
+OS,Buffa2010_hypoxia,208,207,91,100,median of the score in the analysed patients,0.155410521372596
+OS,Puram2017_pEMT,208,207,86,105,median of the score in the analysed patients,0.14650838612093
+OS,Gavish2023_MP2_G1S,208,207,91,100,median of the score in the analysed patients,0.222267996748706
+OS,Gavish2023_MP1_G2M,208,207,86,105,median of the score in the analysed patients,0.109802778150969
