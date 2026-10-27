@@ -1,0 +1,27 @@
+patient,group,n_cells,samples,sample_type,site,included,site2,locoregional
+BHN70,primary,2413,BHN70,primary,Larynx/Hypopharynx,TRUE,other_or_unknown,TRUE
+BHN64,primary,1599,BHN64,primary,Larynx/Hypopharynx,TRUE,other_or_unknown,TRUE
+BHN60,primary,1293,BHN60,primary,Oral cavity,TRUE,oral,TRUE
+BHN7,primary,278,BHN7,primary,Oral cavity,TRUE,oral,TRUE
+BHN1,primary,222,BHN1,primary,Oral cavity,TRUE,oral,TRUE
+BHN17,primary,164,BHN17,primary,"",TRUE,other_or_unknown,TRUE
+BHN75,primary,83,BHN75,primary,Oral cavity,TRUE,oral,TRUE
+BHN72,primary,79,BHN72,primary,Oral cavity,TRUE,oral,TRUE
+BHN67,primary,58,BHN67,primary,Oral cavity,TRUE,oral,TRUE
+BHN31TS,primary,16,BHN31TS,primary,Oral cavity,FALSE,oral,TRUE
+BHN30,primary,15,BHN30,primary,Oral cavity,FALSE,oral,TRUE
+BHN13,relapse,2036,Bill_HN13,metastasis,Larynx/Hypopharynx,TRUE,other_or_unknown,FALSE
+BHN23,relapse,591,Bill_HN23+Bill_HN45,recurrence,Larynx/Hypopharynx,TRUE,other_or_unknown,TRUE
+BHN43,relapse,475,Bill_HN43,recurrence,Larynx/Hypopharynx,TRUE,other_or_unknown,TRUE
+BHN8,relapse,375,Bill_HN8,metastasis,Larynx/Hypopharynx,TRUE,other_or_unknown,FALSE
+BHN20,relapse,178,Bill_HN20,recurrence,Oral cavity,TRUE,oral,TRUE
+BHN35,relapse,176,Bill_HN35,recurrence,Oral cavity,TRUE,oral,TRUE
+BHN26,relapse,141,Bill_HN26,recurrence,Oral cavity,TRUE,oral,TRUE
+BHN14,relapse,138,Bill_HN14,metastasis,Oropharynx,TRUE,other_or_unknown,FALSE
+BHN55,relapse,86,Bill_HN55,recurrence,Larynx/Hypopharynx,TRUE,other_or_unknown,TRUE
+BHN2,relapse,26,Bill_HN2,metastasis,Oral cavity,TRUE,oral,FALSE
+BHN38,relapse,26,Bill_HN38,recurrence,Oral cavity,TRUE,oral,TRUE
+BHN22,relapse,23,Bill_HN22,recurrence,Oral cavity,TRUE,oral,TRUE
+BHN37,relapse,14,Bill_HN37,recurrence,Larynx/Hypopharynx,FALSE,other_or_unknown,TRUE
+BHN29,relapse,10,Bill_HN29,recurrence,Larynx/Hypopharynx,FALSE,other_or_unknown,TRUE
+BHN32T,relapse,9,Bill_HN32T,recurrence,Oral cavity,FALSE,oral,TRUE
