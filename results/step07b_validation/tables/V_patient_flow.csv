@@ -1,0 +1,16 @@
+cohort,step,n
+GSE65858,GSE65858 series samples,270
+GSE65858,HPV16 DNA-negative (hpv16_dna_rna = DNA-),196
+GSE65858,  and primary tumour (tumor_type = Primary),179
+GSE65858,"analysed for PFS (time > 0, event known)",179
+GSE65858,  complete covariates for the PFS multivariable model,176
+GSE65858,"analysed for OS (time > 0, event known)",179
+GSE65858,  complete covariates for the OS multivariable model,176
+GSE41613,GSE41613 series samples,97
+GSE41613,HPV-negative OSCC (tissue type),97
+GSE41613,"analysed for DSS (time > 0, event known)",97
+GSE41613,  complete covariates for the DSS multivariable model,97
+GSE41613,"analysed for OS (time > 0, event known)",97
+GSE41613,  complete covariates for the OS multivariable model,97
+GSE41613,"analysed for DSS_unk (time > 0, event known)",97
+GSE41613,  complete covariates for the DSS_unk multivariable model,97
