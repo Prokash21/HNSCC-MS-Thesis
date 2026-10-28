@@ -1,0 +1,11 @@
+step,n
+TCGA HPV- primary tumours with RNA-seq (step 07a),415
+  with a non-redacted TCGA-CDR record,415
+  site oral cavity,277
+  site larynx,106
+  site other,32
+  site missing,0
+"oral: analysed for PFI (time > 0, event known)",277
+"oral: analysed for OS (time > 0, event known)",277
+"larynx: analysed for PFI (time > 0, event known)",106
+"larynx: analysed for OS (time > 0, event known)",106

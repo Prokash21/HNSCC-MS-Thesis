@@ -106,5 +106,8 @@ paths <- list(
   gse41613           = "data/raw/step07_bulk/GSE41613_series_matrix.txt.gz",
   gpl10558           = "data/raw/step07_bulk/GPL10558.annot.gz",
   step07b_geo        = "data/processed/v2/step07b_geo.rds",
-  step07b            = "results/step07b_validation"
+  step07b            = "results/step07b_validation",
+
+  ## ---- step 07c: TCGA oral cavity subgroup (exploratory) -----------------
+  step07c            = "results/step07c_oral"
 )
