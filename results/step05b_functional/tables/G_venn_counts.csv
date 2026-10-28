@@ -1,0 +1,3 @@
+direction,sc_only,both,tcga_only,sc_not_in_tcga,sc_total,tcga_total
+up,17,125,5205,0,142,5330
+down,10,63,5363,0,73,5426
