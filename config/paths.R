@@ -127,5 +127,8 @@ paths <- list(
   step05c            = "results/step05c_gene_atlas",
 
   ## ---- step 08: final qPCR list, primers, ordering, wet-lab sheets -------
-  step08             = "results/step08_primers"
+  step08             = "results/step08_primers",
+
+  ## ---- step 04c: DESeq2 sensitivity --------------------------------------
+  step04c            = "results/step04c_deseq2"
 )

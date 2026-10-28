@@ -1,0 +1,6 @@
+contrast,genes,cooks_outlier_pvalue_NA,independent_filtering_padj_NA,cooks_replaced_genes,coefficient
+C1_HPVneg,9915,0,0,0,state_malignant_vs_normal
+C2_HPVneg,11617,48,897,260,state_malignant_vs_normal
+C1_HPVpos,8836,0,0,0,state_malignant_vs_normal
+C2_HPVpos,11431,17,0,31,state_malignant_vs_normal
+TCGA_HPVneg,19332,0,0,0,state_tumour_vs_normal
