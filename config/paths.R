@@ -109,5 +109,13 @@ paths <- list(
   step07b            = "results/step07b_validation",
 
   ## ---- step 07c: TCGA oral cavity subgroup (exploratory) -----------------
-  step07c            = "results/step07c_oral"
+  step07c            = "results/step07c_oral",
+
+  ## ---- step 05b: functional analysis ------------------------------------
+  msigdb_h           = "data/reference/msigdb/h.all.v2024.1.Hs.symbols.gmt",
+  msigdb_gobp        = "data/reference/msigdb/c5.go.bp.v2024.1.Hs.symbols.gmt",
+  msigdb_gobp_json   = "data/reference/msigdb/c5.go.bp.v2024.1.Hs.json",
+  msigdb_reactome    = "data/reference/msigdb/c2.cp.reactome.v2024.1.Hs.symbols.gmt",
+  step05b_sets       = "data/processed/v2/step05b_gene_sets.rds",
+  step05b            = "results/step05b_functional"
 )
