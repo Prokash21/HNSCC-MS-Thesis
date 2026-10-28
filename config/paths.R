@@ -124,5 +124,8 @@ paths <- list(
   gse139324_matrix   = "data/raw/step05c_blood/GSE139324_series_matrix.txt.gz",
   gtex_median        = "data/raw/step05c_blood/GTEx_v8_gene_median_tpm.gct.gz",
   step05c_pbmc       = "data/processed/v2/step05c_cillo_pbmc_pseudobulk.rds",
-  step05c            = "results/step05c_gene_atlas"
+  step05c            = "results/step05c_gene_atlas",
+
+  ## ---- step 08: final qPCR list, primers, ordering, wet-lab sheets -------
+  step08             = "results/step08_primers"
 )
