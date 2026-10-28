@@ -117,5 +117,12 @@ paths <- list(
   msigdb_gobp_json   = "data/reference/msigdb/c5.go.bp.v2024.1.Hs.json",
   msigdb_reactome    = "data/reference/msigdb/c2.cp.reactome.v2024.1.Hs.symbols.gmt",
   step05b_sets       = "data/processed/v2/step05b_gene_sets.rds",
-  step05b            = "results/step05b_functional"
+  step05b            = "results/step05b_functional",
+
+  ## ---- step 05c: gene atlas, blood background -----------------------------
+  gse139324_pbmc     = "data/raw/step05c_blood/pbmc",
+  gse139324_matrix   = "data/raw/step05c_blood/GSE139324_series_matrix.txt.gz",
+  gtex_median        = "data/raw/step05c_blood/GTEx_v8_gene_median_tpm.gct.gz",
+  step05c_pbmc       = "data/processed/v2/step05c_cillo_pbmc_pseudobulk.rds",
+  step05c            = "results/step05c_gene_atlas"
 )
