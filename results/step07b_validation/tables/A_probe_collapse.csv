@@ -1,0 +1,3 @@
+platform,probes_in_matrix,probes_annotated,probes_empty_symbol,probes_multi_symbol,probes_symbol_not_mapped,probes_used,genes
+GPL10558,31330,31330,7859,8,248,23215,16707
+GPL570,54613,54613,9505,2214,2218,40676,19001

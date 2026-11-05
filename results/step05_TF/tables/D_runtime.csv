@@ -1,0 +1,13 @@
+stage,seconds,peak_main_MB,peak_worker_MB
+"GRNBoost2 run 1 (6728 cells, 15571 genes)",7416.9,3962,480
+ctx run 1 (8779 modules -> 416 regulons),2085.5,3962,480
+"GRNBoost2 run 2 (6728 cells, 15571 genes)",4434.6,3962,518
+ctx run 2 (8811 modules -> 419 regulons),1396.8,4617,1209
+load export,15.4,1245,0
+"GRNBoost2 run 3 (6728 cells, 15571 genes)",5397.6,2947,385
+ctx run 3 (8810 modules -> 424 regulons),3482.2,6000,385
+"AUCell run-1 regulons, superseded (11606 cells x 416 regulons)",31.4,7968,1107
+"total, session 2 (run 3 + AUCell + tests)",8932.0,7968,1107
+load export (consensus rerun),15.0,1282,0
+AUCell consensus regulons (11606 cells x 186 regulons),3013.9,7037,1054
+"total, consensus rerun (AUCell + tests)",3033.7,7037,1054

@@ -1,0 +1,10 @@
+set,programme,role,source,genes_in_table,genes_mapped,in_panel
+Toustrup2011_hypoxia,hypoxia,primary,"Toustrup 2011 Cancer Res, Table S2, genes marked ** (final 15-gene classifier)",15,15,SLC2A1
+Buffa2010_hypoxia,hypoxia,primary,"Buffa 2010 Br J Cancer, Table S5 Common Hypoxia Signature Genes (MOESM10_ESM.xls)",51,51,SLC2A1;CA9
+Gavish2023_MP6_hypoxia,hypoxia,concordance,"Gavish 2023 Nature, Supplementary Table sheet 'Cancer MPs', column 'MP6 Hypoxia'",50,50,SLC2A1;CA9
+Puram2017_pEMT,p-EMT,primary,"Puram 2017 Cell, Table S7 (mmc1.pdf p. 6), column p-EMT, genes 1-100",100,100,LAMC2
+Gavish2023_MP13_EMTII,p-EMT,concordance,"Gavish 2023 Nature, Supplementary Table sheet 'Cancer MPs', column 'MP13 EMT-II'",50,50,LAMC2
+Gavish2023_MP2_G1S,proliferation,primary,"Gavish 2023 Nature, Supplementary Table sheet 'Cancer MPs', column 'MP2  Cell Cycle - G1/S'",50,50,""
+Gavish2023_MP1_G2M,proliferation,primary,"Gavish 2023 Nature, Supplementary Table sheet 'Cancer MPs', column 'MP1  Cell Cycle - G2/M'",50,50,TPX2;PLK1
+Tirosh2016_G1S,proliferation,concordance,"Tirosh 2016 Science, Table S5, phase-specific genes, G1/S",43,43,""
+Tirosh2016_G2M,proliferation,concordance,"Tirosh 2016 Science, Table S5, phase-specific genes, G2/M",55,54,TPX2

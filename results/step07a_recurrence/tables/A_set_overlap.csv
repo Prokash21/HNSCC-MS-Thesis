@@ -1,0 +1,11 @@
+a,b,programme,shared,jaccard
+Buffa2010_hypoxia,Gavish2023_MP6_hypoxia,hypoxia,18,0.216867469879518
+Buffa2010_hypoxia,Toustrup2011_hypoxia,hypoxia,7,0.11864406779661
+Gavish2023_MP6_hypoxia,Toustrup2011_hypoxia,hypoxia,12,0.226415094339623
+Gavish2023_MP13_EMTII,Puram2017_pEMT,p-EMT,30,0.25
+Gavish2023_MP1_G2M,Gavish2023_MP2_G1S,proliferation,6,0.0638297872340426
+Gavish2023_MP1_G2M,Tirosh2016_G1S,proliferation,0,0
+Gavish2023_MP1_G2M,Tirosh2016_G2M,proliferation,30,0.405405405405405
+Gavish2023_MP2_G1S,Tirosh2016_G1S,proliferation,22,0.309859154929577
+Gavish2023_MP2_G1S,Tirosh2016_G2M,proliferation,2,0.0196078431372549
+Tirosh2016_G1S,Tirosh2016_G2M,proliferation,0,0

@@ -77,5 +77,58 @@ paths <- list(
   pseudobulk_v2b     = "data/processed/v2/pseudobulk_step04b.rds",
   tcga_dir           = "data/raw/tcga_hnsc_star",
   tcga_counts        = "data/processed/v2/tcga_hnsc_paired_counts.rds",
-  step04b            = "results/step04b_DE"
+  step04b            = "results/step04b_DE",
+
+  ## ---- step 05: TF activity and regulatory networks ----------------------
+  lambert_tfs        = "data/reference/tf_lists/Lambert2018_TF_names_v_1.01.txt",
+  cistarget_dir      = "data/reference/cistarget",
+  step05_export      = "data/processed/v2/step05_export",
+  step05_scenic      = "data/processed/v2/step05_scenic",
+  step05             = "results/step05_TF",
+
+  ## ---- step 06: qRT-PCR panel and primers ---------------------------------
+  tcga_site          = "data/raw/step01_metadata/cbioportal_hnsc_tcga_primary_site.csv",
+  tcga_tpm           = "data/processed/v2/tcga_hnsc_paired_tpm.rds",
+  step06             = "results/step06_qPCR",
+
+  ## ---- step 07a: recurrence arm and survival -----------------------------
+  papers_dir         = "data/raw/step01_metadata/papers",
+  gene_sets_dir      = "config/gene_sets",
+  tcga_all_counts    = "data/raw/step07_bulk/TCGA-HNSC.star_counts.tsv.gz",
+  tcga_cdr           = "data/raw/tcga_cdr/TCGA-CDR-SupplementalTableS1.xlsx",
+  gpl570             = "data/raw/step07_bulk/GPL570.annot.gz",
+  step07a_tcga       = "data/processed/v2/step07a_tcga_hpvneg.rds",
+  step07a_bill       = "data/processed/v2/step07a_bill_cells.rds",
+  step07a            = "results/step07a_recurrence",
+
+  ## ---- step 07b: independent validation (GEO cohorts) --------------------
+  gse65858           = "data/raw/step07_bulk/GSE65858_series_matrix.txt.gz",
+  gse41613           = "data/raw/step07_bulk/GSE41613_series_matrix.txt.gz",
+  gpl10558           = "data/raw/step07_bulk/GPL10558.annot.gz",
+  step07b_geo        = "data/processed/v2/step07b_geo.rds",
+  step07b            = "results/step07b_validation",
+
+  ## ---- step 07c: TCGA oral cavity subgroup (exploratory) -----------------
+  step07c            = "results/step07c_oral",
+
+  ## ---- step 05b: functional analysis ------------------------------------
+  msigdb_h           = "data/reference/msigdb/h.all.v2024.1.Hs.symbols.gmt",
+  msigdb_gobp        = "data/reference/msigdb/c5.go.bp.v2024.1.Hs.symbols.gmt",
+  msigdb_gobp_json   = "data/reference/msigdb/c5.go.bp.v2024.1.Hs.json",
+  msigdb_reactome    = "data/reference/msigdb/c2.cp.reactome.v2024.1.Hs.symbols.gmt",
+  step05b_sets       = "data/processed/v2/step05b_gene_sets.rds",
+  step05b            = "results/step05b_functional",
+
+  ## ---- step 05c: gene atlas, blood background -----------------------------
+  gse139324_pbmc     = "data/raw/step05c_blood/pbmc",
+  gse139324_matrix   = "data/raw/step05c_blood/GSE139324_series_matrix.txt.gz",
+  gtex_median        = "data/raw/step05c_blood/GTEx_v8_gene_median_tpm.gct.gz",
+  step05c_pbmc       = "data/processed/v2/step05c_cillo_pbmc_pseudobulk.rds",
+  step05c            = "results/step05c_gene_atlas",
+
+  ## ---- step 08: final qPCR list, primers, ordering, wet-lab sheets -------
+  step08             = "results/step08_primers",
+
+  ## ---- step 04c: DESeq2 sensitivity --------------------------------------
+  step04c            = "results/step04c_deseq2"
 )

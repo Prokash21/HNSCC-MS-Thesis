@@ -1,0 +1,10 @@
+status,direction,reason,N
+gained in DESeq2,down,edgeR C2 FDR >= 0.05,63
+gained in DESeq2,down,edgeR C2 |logFC| < 1,8
+gained in DESeq2,up,edgeR C2 FDR >= 0.05,35
+lost in DESeq2,down,C2 removed by DESeq2 independent filtering (padj NA),1
+lost in DESeq2,down,C2 Cook's outlier (pvalue NA),2
+lost in DESeq2,down,C2 padj >= 0.05,1
+lost in DESeq2,up,C2 padj >= 0.05,24
+lost in DESeq2,up,C2 |log2FC| < 1 in DESeq2,17
+lost in DESeq2,up,C2 padj >= 0.05 and |log2FC| < 1,16

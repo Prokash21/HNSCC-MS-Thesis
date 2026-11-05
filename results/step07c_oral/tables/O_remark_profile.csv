@@ -1,0 +1,5 @@
+subgroup,endpoint,patients,events,median_followup_months,stage,primary_site,age,age_missing,missing_handling,km_cutoff
+oral,PFI,277,111,31.9316688567674,I-II 65; III 51; IV 141; unknown 20,Alveolar Ridge 13; Buccal Mucosa 20; Floor of mouth 59; Hard Palate 6; Lip 3; Oral Cavity 62; Oral Tongue 114,median 61 (range 19-90),0,complete case per model; stage unknown as own level,median of the score in the analysed oral patients
+oral,OS,277,126,34.3298291721419,I-II 65; III 51; IV 141; unknown 20,Alveolar Ridge 13; Buccal Mucosa 20; Floor of mouth 59; Hard Palate 6; Lip 3; Oral Cavity 62; Oral Tongue 114,median 61 (range 19-90),0,complete case per model; stage unknown as own level,median of the score in the analysed oral patients
+larynx,PFI,106,41,34.9868593955322,I-II 10; III 11; IV 70; unknown 15,Larynx 106,median 61 (range 38-83),0,complete case per model; stage unknown as own level,median of the score in the analysed oral patients
+larynx,OS,106,48,44.6123521681997,I-II 10; III 11; IV 70; unknown 15,Larynx 106,median 61 (range 38-83),0,complete case per model; stage unknown as own level,median of the score in the analysed oral patients

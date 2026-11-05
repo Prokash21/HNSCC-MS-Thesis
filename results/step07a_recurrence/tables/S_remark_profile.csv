@@ -1,0 +1,3 @@
+endpoint,patients,events,median_followup_days,median_followup_months,stage_I_II,stage_III,stage_IV,stage_unknown,site_oral,site_larynx,site_other,site_missing,age_missing,age_median
+PFI,415,168,947,31.1103810775296,81,67,225,42,277,106,32,0,0,61
+OS,415,191,1066,35.0197109067017,81,67,225,42,277,106,32,0,0,61

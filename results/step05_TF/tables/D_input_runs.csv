@@ -1,0 +1,4 @@
+run,seed,cells,malignant,normal,patients,genes,TFs_in_genes,candidates_in_genes
+1,1,6728,6414,314,35,15571,1605,56
+2,2,6728,6414,314,35,15571,1605,56
+3,3,6728,6414,314,35,15571,1605,56

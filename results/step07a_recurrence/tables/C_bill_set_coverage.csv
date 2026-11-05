@@ -1,0 +1,10 @@
+set,genes,scored_single_cell,scored_pseudobulk
+Buffa2010_hypoxia,51,51,51
+Gavish2023_MP1_G2M,50,50,50
+Gavish2023_MP13_EMTII,50,50,50
+Gavish2023_MP2_G1S,50,50,50
+Gavish2023_MP6_hypoxia,50,50,48
+Puram2017_pEMT,100,99,99
+Tirosh2016_G1S,43,43,41
+Tirosh2016_G2M,54,54,52
+Toustrup2011_hypoxia,15,15,15

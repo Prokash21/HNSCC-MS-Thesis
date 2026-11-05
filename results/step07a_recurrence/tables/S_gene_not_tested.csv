@@ -1,0 +1,9 @@
+gene,reason
+MIF,not in TCGA log CPM after filterByExpr
+SLC25A32,not in TCGA log CPM after filterByExpr
+TNFRSF6B,not in TCGA log CPM after filterByExpr
+TAX1BP3,not in TCGA log CPM after filterByExpr
+H4C3,not in TCGA log CPM after filterByExpr
+RNASEH2A,not in TCGA log CPM after filterByExpr
+NUSAP1,not in TCGA log CPM after filterByExpr
+PRC1,not in TCGA log CPM after filterByExpr

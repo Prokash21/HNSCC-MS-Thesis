@@ -1,0 +1,9 @@
+step,n
+Xena GDC TCGA-HNSC samples,566
+primary tumour (-01) samples,520
+patients (one primary tumour sample each),520
+HPV- (cBioPortal SUBTYPE),415
+HPV- with a TCGA-CDR HNSC record,415
+"  of these, not redacted",415
+"analysed for PFI (time > 0, event known)",415
+"analysed for OS (time > 0, event known)",415

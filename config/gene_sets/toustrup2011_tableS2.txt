@@ -1,0 +1,19 @@
+# Toustrup et al. 2011, Cancer Res 71:5923, doi:10.1158/0008-5472.CAN-11-1182
+# Supplementary Table S2 "Potential Hypoxic Classifier Genes" (file 00085472can111182-sup-table_s2_pdf_83k.pdf):
+# the genes marked ** = "Gene included in the final 15-Gene Hypoxia Classifier", in table order (B/W ratio).
+# Symbols as printed in the table.
+ADM
+ANKRD37
+P4HA2
+NDRG1
+SLC2A1
+P4HA1
+LOX
+C3orf28
+BNIP3L
+BNIP3
+EGLN3
+PDK1
+PFKFB3
+KCTD11
+ALDOA

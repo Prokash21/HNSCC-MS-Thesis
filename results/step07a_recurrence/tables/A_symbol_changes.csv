@@ -1,0 +1,20 @@
+original,gene,mapping,sets
+C3orf28,FAM162A,previous,Toustrup2011_hypoxia
+C20orf20,MRGBP,previous,Buffa2010_hypoxia
+HIG2,HILPDA,alias,Buffa2010_hypoxia
+NP,PNP,previous,Buffa2010_hypoxia
+CTSL2,CTSV,previous,Buffa2010_hypoxia
+UTP11L,UTP11,previous,Buffa2010_hypoxia
+AK3L1,AK4,ambiguous; resolved by probe 204348_s_at (GPL570),Buffa2010_hypoxia
+NDUFA4L2,COXFA4L2,previous,Gavish2023_MP6_hypoxia
+C4ORF3,ARLN,case fixed; previous,Gavish2023_MP6_hypoxia
+PRKCDBP,CAVIN3,previous,Puram2017_pEMT;Gavish2023_MP13_EMTII
+CXCR7,ACKR3,previous,Puram2017_pEMT
+DFNA5,GSDME,previous,Puram2017_pEMT
+LEPREL1,P3H2,previous,Puram2017_pEMT
+C15ORF48,COXFA4L3,case fixed; previous,Gavish2023_MP13_EMTII
+HIST1H4C,H4C3,previous,Gavish2023_MP2_G1S;Gavish2023_MP1_G2M
+KIAA0101,PCLAF,previous,Gavish2023_MP2_G1S
+MLF1IP,CENPU,previous,Tirosh2016_G1S
+FAM64A,PIMREG,previous,Tirosh2016_G2M
+HN1,JPT1,previous,Tirosh2016_G2M

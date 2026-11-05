@@ -1,66 +1,72 @@
-# Tumour-cell transcription factor networks and recurrence genes in HNSCC
+<h1 align="center">Recurrence genes and TF networks in HNSCC</h1>
 
-**Single-cell discovery of tumor cell-specific transcription factor networks and
-recurrence-associated genes in head and neck squamous cell carcinoma, with
-validation in a Bangladeshi cohort.**
+<p align="center">
+  <b>Single-cell RNA sequencing reveals recurrence-associated genes and their
+  transcription factor networks in head and neck squamous cell carcinoma (HNSCC),
+  with validation in a Bangladeshi cohort.</b>
+</p>
 
-- **Primary analysis:** HPV-negative tumour cells.
-- **Secondary arm:** HPV-positive tumour cells, run with the same pipeline.
-- **Arm A:** tumour cell-specific genes, transcription factors and gene
-  regulatory networks.
-- **Arm B:** recurrence-associated programmes and genes, validated in bulk
-  cohorts with outcome data.
-- **Validation:** qRT-PCR on tissue from Bangladeshi HNSCC patients (tumour,
-  adjacent normal, margins, contralateral and healthy mucosa).
-- **Covariate:** anatomical site (oral cavity, pharynx, larynx) is treated as a
-  covariate, never as a filter.
+<p align="center">
+  <img src="https://img.shields.io/badge/R-4.6-276DC3?logo=r&logoColor=white" alt="R 4.6">
+  <img src="https://img.shields.io/badge/Seurat-v5-6A5ACD" alt="Seurat v5">
+  <img src="https://img.shields.io/badge/scRNA--seq-78%20patients%20%7C%20~275k%20cells-2E8B57" alt="78 patients, ~275k cells">
+  <img src="https://img.shields.io/badge/focus-HPV--negative-C0392B" alt="HPV-negative">
+</p>
 
-Discovery data: the HNSCatlas (Conde-Lopez et al., iScience 2026; 78 patients,
-274,911 cells from GSE234933, GSE181919, GSE164690 and GSE182227). GSE103322
-(Puram 2017) is kept apart as an independent dataset.
+---
 
-## Folder guide
+## Overview
 
-```text
-config/paths.R        every data and result path, sourced by all scripts
-scripts/              v2 analysis scripts, numbered in run order
-results/stepNN_*/     v2 outputs, one folder per step
-archive_v1_HPVpos/    finished v1 HPV+ analysis (scripts + results), see its README
-docs/
-  PROJECT_STATUS_v1.md   status report of the v1 analysis
-  pipeline/              earlier study plans
-  references/            reference papers (PDFs not in git)
-PLAN/                 research plan and sample collection protocol
-data/                 not in git
-  atlas/              HNSCC_Atlas.rds (4 GB)
-  raw/                raw downloads (GEO, metadata)
-  processed/          HNSCatlas/ and GSE103322/ intermediate objects
-  external/           TCGA and other bulk cohorts
-  reference/          Ensembl transcriptome, CollecTRI network
+| Part | What |
+| --- | --- |
+| 🧬 **Discovery** | HNSCatlas single-cell data (GSE234933, GSE181919, GSE164690, GSE182227). Primary analysis on HPV-negative tumour cells. |
+| 🎯 **Tumour-cell genes and TFs** | Malignant cells identified by inferred CNV, compared with normal epithelium by patient-level pseudobulk (edgeR), and scored for TF activity (decoupleR, pySCENIC). |
+| 📈 **Recurrence** | Programme and gene scores tested against outcome in bulk cohorts (TCGA-HNSC, GEO). |
+| 🧪 **Validation** | qRT-PCR panel on tumour and matched normal tissue from Bangladeshi HNSCC patients. |
+
+```mermaid
+flowchart LR
+    A[Single-cell atlas] --> B[CNV: malignant cells]
+    B --> C[Pseudobulk DE<br/>tumour vs normal]
+    C --> D[TF activity<br/>and regulons]
+    C --> E[Recurrence<br/>TCGA / GEO]
+    D --> F[qRT-PCR panel]
+    E --> F
+    F --> G[Bangladeshi cohort]
 ```
 
-## Running
+## Highlights
 
-Run every script from the repo root, e.g. `Rscript scripts/01_metadata.R`.
-Each script sources `config/paths.R`, so no path is hard-coded elsewhere.
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <b>Malignant cells by inferred copy number</b><br>
+      <img src="results/step03_cnv/Fig11_cnv_heatmaps.png" alt="CNV heatmaps">
+    </td>
+    <td width="50%" align="center">
+      <b>HPV-negative tumour vs normal epithelium</b><br>
+      <img src="results/step04b_DE/Fig18_volcano_C2.png" alt="Volcano plot">
+    </td>
+  </tr>
+</table>
 
-| Step | Script | Output |
-|---|---|---|
-| 01 | `scripts/01_metadata.R`: clinical metadata and data availability | `results/step01_metadata/` |
+<p align="center"><b>Pathways → transcription factors → candidate genes</b></p>
+<p align="center"><img src="results/step05b_functional/Fig46_story_diagram.png" alt="Pathway TF gene diagram" width="90%"></p>
 
-## Methods principles
+<p align="center"><b>Tumour programme scores and outcome in TCGA HPV-negative HNSCC</b></p>
+<p align="center"><img src="results/step07a_recurrence/Fig31_tcga_cox_forest.png" alt="Cox forest plot" width="90%"></p>
 
-- Differential expression uses patient-level pseudobulk on raw counts (edgeR or
-  DESeq2); integrated or batch-corrected values are never used for DE.
-- The patient is the unit of replication.
-- Discovery and validation datasets stay separate.
-- FDR control throughout; simple pre-specified scores rather than fitted signatures.
-- Every step follows a published reference method, cited in its summary.
+## Repository
 
-## Data sources
+```text
+config/paths.R      all data and result paths
+scripts/            analysis scripts, numbered in run order
+results/stepNN_*/   outputs and figures, one folder per step
+PLAN/               research plan and sample collection protocol
+archive_v1_HPVpos/  earlier HPV-positive analysis
+```
 
-- HNSCatlas: <https://hifis-storage.desy.de:2880/Helmholtz/E220-Radioonc_biol-DKFZ/HNSCC_Atlas.rds>
-  → `data/atlas/`
-- GEO series are downloaded by the scripts into `data/raw/`.
-
-Requirements: R 4.6 (Seurat 5, edgeR, decoupleR, ggplot2, patchwork, ragg).
+Run scripts from the repo root, e.g. `Rscript scripts/01_metadata.R`.
+Requires R 4.6 (Seurat 5, edgeR, DESeq2, decoupleR, survival, ggplot2).
+Data files are not in git; the atlas is available from
+<https://hifis-storage.desy.de:2880/Helmholtz/E220-Radioonc_biol-DKFZ/HNSCC_Atlas.rds>.

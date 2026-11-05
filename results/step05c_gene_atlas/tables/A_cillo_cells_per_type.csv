@@ -1,0 +1,31 @@
+group,cell_type,N
+HNSCC HPV+,CD4 T,5359
+HNSCC HPV+,CD14 monocyte,2894
+HNSCC HPV+,CD8 T,2404
+HNSCC HPV+,NK,2360
+HNSCC HPV+,B,1040
+HNSCC HPV+,CD16 monocyte,834
+HNSCC HPV+,cDC,223
+HNSCC HPV+,pDC,98
+HNSCC HPV+,platelet,25
+HNSCC HPV+,plasma,22
+HNSCC HPV-,CD14 monocyte,9796
+HNSCC HPV-,CD4 T,9696
+HNSCC HPV-,CD8 T,4089
+HNSCC HPV-,NK,3618
+HNSCC HPV-,CD16 monocyte,2230
+HNSCC HPV-,B,1311
+HNSCC HPV-,cDC,411
+HNSCC HPV-,pDC,155
+HNSCC HPV-,plasma,100
+HNSCC HPV-,platelet,90
+healthy donor,CD4 T,4932
+healthy donor,CD14 monocyte,2303
+healthy donor,CD8 T,2079
+healthy donor,NK,1397
+healthy donor,B,688
+healthy donor,CD16 monocyte,461
+healthy donor,cDC,183
+healthy donor,pDC,58
+healthy donor,platelet,22
+healthy donor,plasma,17

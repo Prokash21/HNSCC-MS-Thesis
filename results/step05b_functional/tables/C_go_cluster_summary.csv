@@ -1,0 +1,5 @@
+group,terms,with_go_id,clustered,clusters
+ORA_up,0,0,FALSE,
+ORA_down,3,3,FALSE,
+GSEA_replicated_up,29,29,TRUE,4
+GSEA_replicated_down,3,3,FALSE,

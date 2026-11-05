@@ -1,0 +1,5 @@
+step,n
+Xena GDC TCGA-HNSC samples,566
+primary tumour (-01) samples,520
+patients (one primary tumour sample each),520
+HPV- (cBioPortal SUBTYPE),415

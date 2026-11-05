@@ -34,3 +34,9 @@ CLAUDE.local.md
 
 # large step 03 figure (PNG version is tracked)
 results/step03_cnv/Fig11_cnv_heatmaps.pdf
+
+# project-local Python environments (requirements files are tracked)
+envs/py310/
+
+# step summaries (kept local only)
+results/**/STEP*_SUMMARY.md

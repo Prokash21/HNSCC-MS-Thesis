@@ -1,0 +1,5 @@
+TF,target,sources,collectri_sign
+E2F1,FOXM1,CollecTRI,1
+E2F1,MYBL2,CollecTRI+pySCENIC,1
+MYBL2,E2F1,CollecTRI+pySCENIC,-1
+NFIC,FOXM1,CollecTRI,1
